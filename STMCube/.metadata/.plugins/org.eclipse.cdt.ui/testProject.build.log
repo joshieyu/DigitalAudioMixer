@@ -1,0 +1,24 @@
+19:57:31 **** Incremental Build of configuration Debug for project testProject ****
+make -j16 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m7 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F746xx -c -I../Core/Inc -I../FATFS/Target -I../FATFS/App -I../USB_HOST/App -I../USB_HOST/Target -I../Drivers/STM32F7xx_HAL_Driver/Inc -I../Drivers/STM32F7xx_HAL_Driver/Inc/Legacy -I../Middlewares/Third_Party/FreeRTOS/Source/include -I../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS -I../Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM7/r0p1 -I../Middlewares/Third_Party/FatFs/src -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32F7xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:268:21: warning: unused variable 'receiveStatus' [-Wunused-variable]
+  268 |   HAL_StatusTypeDef receiveStatus = HAL_SAI_Receive_DMA(&hsai_BlockB2, (uint8_t *)adcData, BUFFER_SIZE_IN_BYTES);
+      |                     ^~~~~~~~~~~~~
+../Core/Src/main.c:267:21: warning: unused variable 'transmitStatus' [-Wunused-variable]
+  267 |   HAL_StatusTypeDef transmitStatus = HAL_SAI_Transmit_DMA(&hsai_BlockB2, (uint8_t *)dacData, BUFFER_SIZE_IN_BYTES);
+      |                     ^~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "testProject.elf" @"objects.list"   -mcpu=cortex-m7 -T"C:\Users\jyepi\OneDrive\Desktop\Mixer Project\STMCube\testProject\STM32F746NGHX_FLASH.ld" --specs=nosys.specs -Wl,-Map="testProject.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv5-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: testProject.elf
+ 
+arm-none-eabi-size  testProject.elf 
+arm-none-eabi-objdump -h -S testProject.elf  > "testProject.list"
+   text	   data	    bss	    dec	    hex	filename
+  84916	    452	  40796	 126164	  1ecd4	testProject.elf
+Finished building: default.size.stdout
+ 
+Finished building: testProject.list
+ 
+
+19:57:33 Build Finished. 0 errors, 2 warnings. (took 1s.730ms)
+

@@ -1,0 +1,11 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:590:13:DMA2D_CopyBuffer	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:664:12:GetBufferSize	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:679:13:LCD_LL_CopyBuffer	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:700:13:LCD_LL_CopyRect	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:751:13:LCD_LL_DrawBitmap32bpp	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:719:13:LCD_LL_FillRect	3
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:180:6:HAL_LTDC_MspInit	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:270:6:HAL_LTDC_MspDeInit	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:286:6:HAL_LTDC_LineEventCallback	3
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:322:6:LCD_X_Config	4
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Target/LCDConf.c:407:5:LCD_X_DisplayDriver	17

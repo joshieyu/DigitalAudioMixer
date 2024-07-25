@@ -1,0 +1,9 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:773:13:Startup	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:319:13:_cbMediaConnection	9
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:412:13:_cbAudioProcess	7
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:510:13:_cbDialog	30
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:251:13:_cbButton_exit	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:285:13:_cbButton_pause	7
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:268:13:_cbButton_stop	4
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:302:13:_cbButton_record	10
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/audio_recorder/audio_recorder_win.c:472:6:_cbNotifyStateChange	5

@@ -1,0 +1,4 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/BSP/Drivers/BSP/Components/ov9655/ov9655.c:700:17:ov9655_ConvertValue	0	static
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/BSP/Drivers/BSP/Components/ov9655/ov9655.c:633:6:ov9655_Config	24	static
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/BSP/Drivers/BSP/Components/ov9655/ov9655.c:572:6:ov9655_Init	16	static
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/BSP/Drivers/BSP/Components/ov9655/ov9655.c:682:10:ov9655_ReadID	8	static

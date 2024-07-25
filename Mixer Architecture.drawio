@@ -1,0 +1,99 @@
+<mxfile host="app.diagrams.net" modified="2024-07-25T19:40:51.769Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" etag="DBfB6Qplt5I5x2do8rIv" version="24.6.1" type="device">
+  <diagram name="Page-1" id="90a13364-a465-7bf4-72fc-28e22215d7a0">
+    <mxGraphModel dx="2394" dy="1194" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="826" background="none" math="0" shadow="0">
+      <root>
+        <mxCell id="0" style=";html=1;" />
+        <mxCell id="1" style=";html=1;" parent="0" />
+        <mxCell id="3a17f1ce550125da-2" value="&lt;div&gt;&lt;font size=&quot;1&quot; style=&quot;&quot;&gt;&lt;b style=&quot;font-size: 16px;&quot;&gt;AI + Control Chip&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;Raspberry Pi 5&lt;/font&gt;" style="whiteSpace=wrap;html=1;shadow=0;fontSize=18;fillColor=#FFFFFF;strokeColor=#666666;" parent="1" vertex="1">
+          <mxGeometry x="520" y="520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-1" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;DSP Chip&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;xCORE MCU" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="800" y="520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-2" value="&lt;b&gt;Power Supplies&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;3.3V, 5V, 48v phantom power&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="280" y="360" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-8" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="_0lr-mcTkUQaRTdnp845-2" target="3a17f1ce550125da-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="720" y="550" as="sourcePoint" />
+            <mxPoint x="600" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-9" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="_0lr-mcTkUQaRTdnp845-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600" y="400" as="sourcePoint" />
+            <mxPoint x="880" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-10" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Audio Codec&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;Cirrus Logic Codec&lt;/font&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1080" y="520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-11" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="_0lr-mcTkUQaRTdnp845-10" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="880" y="400" as="sourcePoint" />
+            <mxPoint x="1160" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-12" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;I2S&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" source="3a17f1ce550125da-2" target="_0lr-mcTkUQaRTdnp845-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="559" as="sourcePoint" />
+            <mxPoint x="770" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-13" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;I2C&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" source="3a17f1ce550125da-2" target="_0lr-mcTkUQaRTdnp845-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="690" as="sourcePoint" />
+            <mxPoint x="780" y="690" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-14" value="&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Analog I/O&lt;/font&gt;&lt;/b&gt;&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;8 Channel XLR/TRS Input&lt;/div&gt;&lt;div&gt;Stereo Output + Potential&lt;/div&gt;&lt;div&gt;Monitor Output&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="1360" y="520" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-15" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;I2S&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="550" as="sourcePoint" />
+            <mxPoint x="1080" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-16" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;I2C&lt;/font&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="960" y="610" as="sourcePoint" />
+            <mxPoint x="1080" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-17" value="" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="_0lr-mcTkUQaRTdnp845-14" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1160" y="400" as="sourcePoint" />
+            <mxPoint x="1440" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-18" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;ADC&lt;/font&gt;" style="endArrow=none;startArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=1;exitY=0.25;exitDx=0;exitDy=0;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="550" as="sourcePoint" />
+            <mxPoint x="1360" y="550" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-21" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;DAC&lt;/font&gt;" style="endArrow=classic;startArrow=none;html=1;rounded=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;exitX=1;exitY=0.75;exitDx=0;exitDy=0;startFill=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1240" y="610" as="sourcePoint" />
+            <mxPoint x="1360" y="610" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-23" value="&lt;div&gt;&lt;b&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;Control&lt;/font&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;Phone/Tablet App" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="520" y="720" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-24" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="_0lr-mcTkUQaRTdnp845-23" target="3a17f1ce550125da-2" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="840" y="680" as="sourcePoint" />
+            <mxPoint x="890" y="630" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_0lr-mcTkUQaRTdnp845-25" value="Wifi Connection" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="_0lr-mcTkUQaRTdnp845-24" vertex="1" connectable="0">
+          <mxGeometry x="-0.0938" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

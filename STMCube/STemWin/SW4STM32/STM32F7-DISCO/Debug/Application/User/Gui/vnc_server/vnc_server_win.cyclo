@@ -1,0 +1,9 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:395:13:Startup	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:233:13:_cbButton_exit	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:200:13:_cbButton_start	5
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:183:13:_cbButton_bg	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:217:13:_cbButton_lock	3
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:384:9:VNC_IsRunning	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:418:6:VNC_SERVER_LogMessage	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:246:13:_cbDialog	18
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Gui/Core/vnc_server/vnc_server_win.c:434:6:VNC_SERVER_StatusChanged	4

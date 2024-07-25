@@ -1,0 +1,5 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Utilities/CPU/cpu_utils.c:74:6:vApplicationIdleHook	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Utilities/CPU/cpu_utils.c:88:6:vApplicationTickHook	3
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Utilities/CPU/cpu_utils.c:110:6:StartIdleMonitor	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Utilities/CPU/cpu_utils.c:123:6:EndIdleMonitor	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Utilities/CPU/cpu_utils.c:138:10:osGetCPUUsage	1

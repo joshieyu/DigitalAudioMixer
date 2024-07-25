@@ -1,0 +1,4 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Modules/Common/audio_if.c:57:6:AUDIO_IF_RegisterCallbacks	0	static
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Modules/Common/audio_if.c:70:6:BSP_AUDIO_OUT_TransferComplete_CallBack	0	static
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Modules/Common/audio_if.c:83:6:BSP_AUDIO_OUT_HalfTransfer_CallBack	0	static
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Modules/Common/audio_if.c:96:6:BSP_AUDIO_OUT_Error_CallBack	0	static

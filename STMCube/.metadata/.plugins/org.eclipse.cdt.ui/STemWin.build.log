@@ -1,0 +1,10 @@
+19:18:18 **** Incremental Build of configuration Debug for project STemWin ****
+make -j16 all 
+arm-none-eabi-size  STemWin.elf 
+   text	   data	    bss	    dec	    hex	filename
+5108826	   2364	 295748	5406938	 5280da	STemWin.elf
+Finished building: default.size.stdout
+ 
+
+19:18:19 Build Finished. 0 errors, 0 warnings. (took 993ms)
+

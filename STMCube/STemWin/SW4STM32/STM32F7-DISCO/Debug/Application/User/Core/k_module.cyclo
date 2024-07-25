@@ -1,0 +1,7 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_module.c:49:6:k_ModuleInit	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_module.c:62:9:k_ModuleGetNumber	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_module.c:71:9:k_ModuleAdd	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_module.c:85:9:k_ModuleGetIndex	3
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_module.c:105:9:k_ModuleOpenLink	2
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_module.c:126:25:k_ModuleCheckLink	3
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_module.c:146:6:k_ModuleRemove	4

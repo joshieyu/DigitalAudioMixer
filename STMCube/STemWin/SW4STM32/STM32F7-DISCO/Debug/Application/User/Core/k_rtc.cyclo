@@ -1,0 +1,9 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:44:6:k_CalendarBkupInit	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:76:6:HAL_RTC_MspInit	3
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:110:6:HAL_RTC_MspDeInit	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:125:6:k_BkupSaveParameter	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:137:10:k_BkupRestoreParameter	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:147:6:k_GetTime	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:157:6:k_SetTime	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:170:6:k_GetDate	3
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Core/Src/k_rtc.c:185:6:k_SetDate	1

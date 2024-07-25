@@ -1,0 +1,5 @@
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Config/usbh_diskio.c:65:9:USBH_initialize	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Config/usbh_diskio.c:77:9:USBH_status	1
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Config/usbh_diskio.c:100:9:USBH_read	8
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Config/usbh_diskio.c:227:9:USBH_ioctl	8
+C:/Users/jyepi/OneDrive/Desktop/Mixer Project/STMCube/STemWin/Config/usbh_diskio.c:162:9:USBH_write	9
