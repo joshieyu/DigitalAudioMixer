@@ -1,0 +1,225 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5266cf9e-da90-4c53-80fd-cf3dbed42632")
+	(paper "A4")
+	(title_block
+		(title "Power Supplies")
+		(date "2024-09-01")
+		(rev "1")
+		(company "Michael Meyers")
+	)
+	(lib_symbols)
+	(junction
+		(at 177.8 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "27896cf4-6399-493c-b17d-7f2de3368e94")
+	)
+	(wire
+		(pts
+			(xy 158.75 39.37) (xy 177.8 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8fa166d6-71a7-49ab-8bf0-3d9d70f0cdbb")
+	)
+	(wire
+		(pts
+			(xy 177.8 39.37) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b5203e1-4e73-4e81-b550-eb59f549f2e6")
+	)
+	(wire
+		(pts
+			(xy 191.77 58.42) (xy 177.8 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7e7f98d-2fd3-4bd3-ad85-bc49d4e9194e")
+	)
+	(wire
+		(pts
+			(xy 177.8 30.48) (xy 177.8 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0775663-12fc-453e-a14d-1868cb4cf4c7")
+	)
+	(wire
+		(pts
+			(xy 177.8 30.48) (xy 191.77 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd7c9276-71cc-4e37-bcf7-eb405794398a")
+	)
+	(hierarchical_label "5V_IN"
+		(shape input)
+		(at 191.77 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "60dd4265-03c3-4922-9c80-7af4e6a13a53")
+	)
+	(hierarchical_label "5V_IN"
+		(shape input)
+		(at 191.77 30.48 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a0a1b94b-5963-4e0d-bac1-320caa0886c0")
+	)
+	(hierarchical_label "5V_OUT"
+		(shape output)
+		(at 158.75 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e63dd4c0-c64e-4987-8bcd-a5cbc729e2fa")
+	)
+	(sheet
+		(at 124.46 30.48)
+		(size 34.29 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5982fdfd-a052-4daa-9192-d77d69fc941f")
+		(property "Sheetname" "5V Power Supply"
+			(at 124.46 29.7684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "5V_PSU_sch.kicad_sch"
+			(at 124.46 50.1146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 49.53)
+		(size 68.58 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c32f96f-6431-432f-ba4b-d32b848998a9")
+		(property "Sheetname" "1.8V Power Supply"
+			(at 191.77 48.8184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1.8V_PSU_sch.kicad_sch"
+			(at 191.77 69.1646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 20.32)
+		(size 68.58 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d97b0578-9041-4470-b716-17aff17c9225")
+		(property "Sheetname" "3.3V Power Supply"
+			(at 191.77 19.6084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "3.3V_PSU_sch.kicad_sch"
+			(at 191.77 41.2246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
