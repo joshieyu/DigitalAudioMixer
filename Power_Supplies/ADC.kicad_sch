@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "ad74cb87-e11b-4eb9-8e18-7a3ef1b2eb0f")
+	(paper "A4")
+	(title_block
+		(company "Michael Meyers")
+	)
+	(lib_symbols)
+)

@@ -917,6 +917,18 @@
 		)
 		(uuid "f79823ed-60af-4438-b76b-83f7e2edf0b6")
 	)
+	(rectangle
+		(start 90.17 62.23)
+		(end 203.2 119.38)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid ae3cff5c-dbdc-4bd6-a42a-74e16a4d394d)
+	)
 	(text "Vout = Vfb * (1+ R5/R6)\nVfb = 0.8V\nVout = 0.8 * (1+523/100) = 5V"
 		(exclude_from_sim yes)
 		(at 147.066 116.078 0)
