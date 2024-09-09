@@ -1,0 +1,187 @@
+(pcb D:/Downloads/SD Circuits/Power_Supplies\freerouting.dsn
+  (parser
+    (string_quote ")
+    (space_in_quoted_tokens on)
+    (host_cad "KiCad's Pcbnew")
+    (host_version "8.0.4")
+  )
+  (resolution um 10)
+  (unit um)
+  (structure
+    (layer F.Cu
+      (type signal)
+      (property
+        (index 0)
+      )
+    )
+    (layer B.Cu
+      (type signal)
+      (property
+        (index 1)
+      )
+    )
+    (boundary
+      (path pcb 0  12947.9 -10738.2  -3627.86 -10738.2  -3627.86 1523.25
+            12947.9 1523.25  12947.9 -10738.2)
+    )
+    (via "Via[0-1]_600:300_um")
+    (rule
+      (width 200)
+      (clearance 200)
+      (clearance 200 (type default_smd))
+      (clearance 50 (type smd_smd))
+    )
+  )
+  (placement
+    (component "Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
+      (place U1 7680.000000 -7940.000000 front 0.000000 (PN TPS62822DLC))
+      (place U2 1640.000000 -7940.000000 front 0.000000 (PN TPS62822DLC))
+    )
+    (component "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+      (place U3 1870.000000 -1775.000000 front 0.000000 (PN TPS82140))
+    )
+  )
+  (library
+    (image "Package_SON:Texas_VSON-HR-8_1.5x2mm_P0.5mm"
+      (outline (path signal 120  -750 1135  750 1135))
+      (outline (path signal 120  -750 -1135  750 -1135))
+      (outline (path signal 50  -1380 1250  -1380 -1250))
+      (outline (path signal 50  -1380 -1250  1380 -1250))
+      (outline (path signal 50  1380 1250  -1380 1250))
+      (outline (path signal 50  1380 -1250  1380 1250))
+      (outline (path signal 100  -750 625  -375 1000))
+      (outline (path signal 100  -750 -1000  -750 625))
+      (outline (path signal 100  -375 1000  750 1000))
+      (outline (path signal 100  750 1000  750 -1000))
+      (outline (path signal 100  750 -1000  -750 -1000))
+      (pin RoundRect[T]Pad_800x250_62.738_um_0.000000_0 1 -725 750)
+      (pin RoundRect[T]Pad_800x250_62.738_um_0.000000_0 2 -725 250)
+      (pin RoundRect[T]Pad_800x250_62.738_um_0.000000_0 3 -725 -250)
+      (pin RoundRect[T]Pad_800x250_62.738_um_0.000000_0 4 -725 -750)
+      (pin RoundRect[T]Pad_800x250_62.738_um_0.000000_0 5 725 -750)
+      (pin RoundRect[T]Pad_800x250_62.738_um_0.000000_0 6 725 -250)
+      (pin RoundRect[T]Pad_800x250_62.738_um_0.000000_0 7 725 250)
+      (pin RoundRect[T]Pad_800x250_62.738_um_0.000000_0 8 725 750)
+    )
+    (image "Package_LGA:Texas_SIL0008D_MicroSiP-8-1EP_2.8x3mm_P0.65mm_EP1.1x1.9mm_ThermalVias"
+      (outline (path signal 120  -1400 -1610  1400 -1610))
+      (outline (path signal 120  -1290 1610  1400 1610))
+      (outline (path signal 50  -1650 1750  -1650 -1750))
+      (outline (path signal 50  -1650 -1750  1650 -1750))
+      (outline (path signal 50  1650 1750  -1650 1750))
+      (outline (path signal 50  1650 -1750  1650 1750))
+      (outline (path signal 100  -1400 800  -700 1500))
+      (outline (path signal 100  -1400 -1500  -1400 800))
+      (outline (path signal 100  -700 1500  1400 1500))
+      (outline (path signal 100  1400 1500  1400 -1500))
+      (outline (path signal 100  1400 -1500  -1400 -1500))
+      (pin RoundRect[T]Pad_625x500_125.476_um_0.000000_0 1 -1062.5 975)
+      (pin RoundRect[T]Pad_625x500_125.476_um_0.000000_0 2 -1062.5 325)
+      (pin RoundRect[T]Pad_625x500_125.476_um_0.000000_0 3 -1062.5 -325)
+      (pin RoundRect[T]Pad_625x500_125.476_um_0.000000_0 4 -1062.5 -975)
+      (pin RoundRect[T]Pad_625x500_125.476_um_0.000000_0 5 1062.5 -975)
+      (pin RoundRect[T]Pad_625x500_125.476_um_0.000000_0 6 1062.5 -325)
+      (pin RoundRect[T]Pad_625x500_125.476_um_0.000000_0 7 1062.5 325)
+      (pin RoundRect[T]Pad_625x500_125.476_um_0.000000_0 8 1062.5 975)
+      (pin Round[A]Pad_500_um 9 0 750)
+      (pin Round[A]Pad_500_um 9@1 0 0)
+      (pin Rect[B]Pad_500x2000_um 9@2 0 0)
+      (pin Rect[T]Pad_1100x1900_um 9@3 0 0)
+      (pin Round[A]Pad_500_um 9@4 0 -750)
+    )
+    (padstack Round[A]Pad_500_um
+      (shape (circle F.Cu 500))
+      (shape (circle B.Cu 500))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_625x500_125.476_um_0.000000_0
+      (shape (polygon F.Cu 0  -312.976 125  -303.425 173.018  -276.225 213.725  -235.518 240.925
+            -187.5 250.476  187.5 250.476  235.518 240.925  276.225 213.725
+            303.425 173.018  312.976 125  312.976 -125  303.425 -173.018
+            276.225 -213.725  235.518 -240.925  187.5 -250.476  -187.5 -250.476
+            -235.518 -240.925  -276.225 -213.725  -303.425 -173.018  -312.976 -125
+            -312.976 125))
+      (attach off)
+    )
+    (padstack RoundRect[T]Pad_800x250_62.738_um_0.000000_0
+      (shape (polygon F.Cu 0  -400.238 62.5  -395.462 86.509  -381.862 106.862  -361.509 120.462
+            -337.5 125.238  337.5 125.238  361.509 120.462  381.862 106.862
+            395.462 86.509  400.238 62.5  400.238 -62.5  395.462 -86.509
+            381.862 -106.862  361.509 -120.462  337.5 -125.238  -337.5 -125.238
+            -361.509 -120.462  -381.862 -106.862  -395.462 -86.509  -400.238 -62.5
+            -400.238 62.5))
+      (attach off)
+    )
+    (padstack Rect[B]Pad_500x2000_um
+      (shape (rect B.Cu -250 -1000 250 1000))
+      (attach off)
+    )
+    (padstack Rect[T]Pad_1100x1900_um
+      (shape (rect F.Cu -550 -950 550 950))
+      (attach off)
+    )
+    (padstack "Via[0-1]_600:300_um"
+      (shape (circle F.Cu 600))
+      (shape (circle B.Cu 600))
+      (attach off)
+    )
+  )
+  (network
+    (net 5V
+      (pins U1-1 U1-7 U3-4 U3-5 U2-1 U2-7)
+    )
+    (net AGND
+      (pins U1-3 U1-5 U3-3 U3-9 U3-9@1 U3-9@2 U3-9@3 U3-9@4 U2-3 U2-5)
+    )
+    (net "Net-(U1-PG)"
+      (pins U1-8)
+    )
+    (net "/3.3V Power Supply/V_FB"
+      (pins U1-2)
+    )
+    (net "/3.3V Power Supply/V_Buck"
+      (pins U1-6)
+    )
+    (net "unconnected-(U1-NC-Pad4)"
+      (pins U1-4)
+    )
+    (net "unconnected-(U2-NC-Pad4)"
+      (pins U2-4)
+    )
+    (net "/1.8V Power Supply/V_FB"
+      (pins U2-2)
+    )
+    (net "/1.8V Power Supply/V_Buck"
+      (pins U2-6)
+    )
+    (net "Net-(U2-PG)"
+      (pins U2-8)
+    )
+    (net "Net-(U3-SS{slash}TR)"
+      (pins U3-8)
+    )
+    (net 15V
+      (pins U3-1 U3-2)
+    )
+    (net "Net-(U3-PG)"
+      (pins U3-7)
+    )
+    (net "/5V Power Supply/V_FB"
+      (pins U3-6)
+    )
+    (class kicad_default "" "/1.8V Power Supply/V_Buck" "/1.8V Power Supply/V_FB"
+      "/3.3V Power Supply/V_Buck" "/3.3V Power Supply/V_FB" "/5V Power Supply/V_FB"
+      15V 5V AGND "Net-(U1-PG)" "Net-(U2-PG)" "Net-(U3-PG)" "Net-(U3-SS{slash}TR)"
+      "unconnected-(U1-NC-Pad4)" "unconnected-(U2-NC-Pad4)"
+      (circuit
+        (use_via Via[0-1]_600:300_um)
+      )
+      (rule
+        (width 200)
+        (clearance 200)
+      )
+    )
+  )
+  (wiring
+  )
+)

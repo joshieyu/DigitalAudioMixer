@@ -2,7 +2,7 @@
 	(version 20231120)
 	(generator "eeschema")
 	(generator_version "8.0")
-	(uuid "9c78d754-97bc-4d11-90b9-e6fdd9de9327")
+	(uuid "602ab12f-22cc-4708-94f7-09db7891e90e")
 	(paper "A4")
 	(title_block
 		(company "Michael Meyers")
@@ -4523,7 +4523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -5783,28 +5783,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "453bd84c-6e10-4b72-8bb4-04f58fab9606")
+			(uuid "453bd84c-6e10-4b72-8bb4-04f58fab9607")
 		)
 		(pin "8"
-			(uuid "3471f95a-6e35-487e-8d23-9540a28ab432")
+			(uuid "3471f95a-6e35-487e-8d23-9540a28ab433")
 		)
 		(pin "2"
-			(uuid "df470941-018e-4b5d-85e3-7d934bae8cc0")
+			(uuid "df470941-018e-4b5d-85e3-7d934bae8cc1")
 		)
 		(pin "7"
-			(uuid "e98bdd73-0c21-4e44-9fdb-13a4ac093cef")
+			(uuid "e98bdd73-0c21-4e44-9fdb-13a4ac093cf0")
 		)
 		(pin "6"
-			(uuid "cfe04aee-96cd-4118-a64a-8cbaf3a1b79e")
+			(uuid "cfe04aee-96cd-4118-a64a-8cbaf3a1b79f")
 		)
 		(pin "1"
-			(uuid "b7bf87fa-8bda-43f1-8ef4-aab45ca0bbbb")
+			(uuid "b7bf87fa-8bda-43f1-8ef4-aab45ca0bbbc")
 		)
 		(pin "4"
-			(uuid "48eea3ad-fab9-4450-885f-6038ac943cb8")
+			(uuid "48eea3ad-fab9-4450-885f-6038ac943cb9")
 		)
 		(pin "5"
-			(uuid "5e5bf4f2-276a-4325-8860-8813ed17815e")
+			(uuid "5e5bf4f2-276a-4325-8860-8813ed17815f")
 		)
 		(instances
 			(project ""
@@ -7104,28 +7104,28 @@
 			)
 		)
 		(pin "3"
-			(uuid "453bd84c-6e10-4b72-8bb4-04f58fab9606")
+			(uuid "453bd84c-6e10-4b72-8bb4-04f58fab9608")
 		)
 		(pin "8"
-			(uuid "3471f95a-6e35-487e-8d23-9540a28ab432")
+			(uuid "3471f95a-6e35-487e-8d23-9540a28ab434")
 		)
 		(pin "2"
-			(uuid "df470941-018e-4b5d-85e3-7d934bae8cc0")
+			(uuid "df470941-018e-4b5d-85e3-7d934bae8cc2")
 		)
 		(pin "7"
-			(uuid "e98bdd73-0c21-4e44-9fdb-13a4ac093cef")
+			(uuid "e98bdd73-0c21-4e44-9fdb-13a4ac093cf1")
 		)
 		(pin "6"
-			(uuid "cfe04aee-96cd-4118-a64a-8cbaf3a1b79e")
+			(uuid "cfe04aee-96cd-4118-a64a-8cbaf3a1b7a0")
 		)
 		(pin "1"
-			(uuid "b7bf87fa-8bda-43f1-8ef4-aab45ca0bbbb")
+			(uuid "b7bf87fa-8bda-43f1-8ef4-aab45ca0bbbd")
 		)
 		(pin "4"
-			(uuid "48eea3ad-fab9-4450-885f-6038ac943cb8")
+			(uuid "48eea3ad-fab9-4450-885f-6038ac943cba")
 		)
 		(pin "5"
-			(uuid "5e5bf4f2-276a-4325-8860-8813ed17815e")
+			(uuid "5e5bf4f2-276a-4325-8860-8813ed178160")
 		)
 		(instances
 			(project ""
@@ -7835,7 +7835,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
 			(at 232.41 102.87 0)
 			(effects
 				(font
