@@ -322,6 +322,44 @@
 		)
 	)
 	(sheet
+		(at 39.37 90.17)
+		(size 24.13 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2c89b534-1f3e-4e8b-9c0c-c669faa35136")
+		(property "Sheetname" "XCORE"
+			(at 39.37 89.4584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XCORE.kicad_sch"
+			(at 39.37 105.9946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 81.28 21.59)
 		(size 34.29 19.05)
 		(fields_autoplaced yes)
