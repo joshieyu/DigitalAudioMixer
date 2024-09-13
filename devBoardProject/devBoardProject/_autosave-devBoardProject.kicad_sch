@@ -1,0 +1,17 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "1672d041-b350-4867-9824-178d067d142e")
+	(paper "A4")
+	(title_block
+		(title "XCORE Development Board")
+		(company "MISTER MIXER")
+	)
+	(lib_symbols)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
