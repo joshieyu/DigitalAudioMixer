@@ -20,7 +20,7 @@ function App() {
         <hr className="w-full" />
         <div>
           <h2>Documents</h2>
-          <Button component="a" href={dncDocument} target="_blank">Divide and Conquer (pending approval)</Button>
+          <Button component="a" href={dncDocument} target="_blank">Divide and Conquer</Button>
         </div>
         <hr className="w-full" />
         <div>
