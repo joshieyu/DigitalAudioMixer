@@ -76,7 +76,11 @@ function App() {
           </div>
           <hr className="w-full" />
           <div>
-            <h3>Team Members</h3>
+            {
+              sus
+            ? <h3>Crewmates</h3>
+            : <h3>Team Members</h3>
+            }
             {
               sus
                 ? <div className="flex flex-row space-x-12">
