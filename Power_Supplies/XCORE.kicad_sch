@@ -3730,16 +3730,6 @@
 	)
 	(wire
 		(pts
-			(xy 128.27 140.97) (xy 139.7 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25a18442-60ef-4c07-af91-0d9d23a7205a")
-	)
-	(wire
-		(pts
 			(xy 109.22 29.21) (xy 114.3 29.21)
 		)
 		(stroke
@@ -3850,6 +3840,16 @@
 	)
 	(wire
 		(pts
+			(xy 128.27 140.97) (xy 139.7 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f960660-1277-4fc7-b390-1901d3b61e78")
+	)
+	(wire
+		(pts
 			(xy 165.1 140.97) (xy 168.91 140.97)
 		)
 		(stroke
@@ -3940,6 +3940,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 39.37) (xy 199.39 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8bd0af16-7ec0-46f0-999c-b547c4c1bdcf")
+	)
+	(wire
+		(pts
 			(xy 195.58 36.83) (xy 203.2 36.83)
 		)
 		(stroke
@@ -3967,16 +3977,6 @@
 			(type default)
 		)
 		(uuid "90fa58ab-9060-46b1-a6b5-e9af9d185957")
-	)
-	(wire
-		(pts
-			(xy 199.39 39.37) (xy 199.39 43.18)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a9605fbf-83d0-496c-b2f0-321e7134c004")
 	)
 	(wire
 		(pts
@@ -4555,7 +4555,7 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
 					(reference "X1")
 					(unit 1)
 				)
@@ -4572,7 +4572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a1cda59-f997-4ed9-bfbf-5b1892bd8f36")
-		(property "Reference" "#PWR038"
+		(property "Reference" "#PWR0101"
 			(at 114.3 48.26 0)
 			(effects
 				(font
@@ -4621,8 +4621,8 @@
 		)
 		(instances
 			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
-					(reference "#PWR038")
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -4638,7 +4638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c674533-242a-46a5-8a64-3bd26985c898")
-		(property "Reference" "#PWR037"
+		(property "Reference" "#PWR0102"
 			(at 165.1 165.1 0)
 			(effects
 				(font
@@ -4687,8 +4687,8 @@
 		)
 		(instances
 			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
-					(reference "#PWR037")
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -4720,7 +4720,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SOIC-8_5P28X5P28_WIN"
+		(property "Footprint" "SamacSys_Parts:SOIC-8_5P28X5P28_WIN"
 			(at 114.3 31.75 0)
 			(effects
 				(font
@@ -4775,7 +4775,7 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
 					(reference "U11")
 					(unit 1)
 				)
@@ -4841,8 +4841,8 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
-					(reference "#PWR035")
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -4909,7 +4909,7 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
 					(reference "R29")
 					(unit 1)
 				)
@@ -4935,7 +4935,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18P"
+		(property "Value" "18pf"
 			(at 132.08 138.4299 0)
 			(effects
 				(font
@@ -4979,8 +4979,8 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
-					(reference "C44")
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
+					(reference "C100")
 					(unit 1)
 				)
 			)
@@ -5049,7 +5049,7 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
 					(reference "R28")
 					(unit 1)
 				)
@@ -5115,8 +5115,8 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
-					(reference "#PWR034")
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -5148,7 +5148,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TQFP128_196X196_XMO"
+		(property "Footprint" "SamacSys_Parts:TQFP128_196X196_XMO"
 			(at 55.88 62.23 0)
 			(effects
 				(font
@@ -5566,7 +5566,7 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
 					(reference "U10")
 					(unit 1)
 				)
@@ -5632,8 +5632,8 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
-					(reference "#PWR036")
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -5665,7 +5665,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TQFP128_196X196_XMO"
+		(property "Footprint" "SamacSys_Parts:TQFP128_196X196_XMO"
 			(at 191.77 62.23 0)
 			(effects
 				(font
@@ -6083,7 +6083,7 @@
 		)
 		(instances
 			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
 					(reference "U10")
 					(unit 2)
 				)
@@ -6100,7 +6100,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef293a11-242d-4eb9-ac5a-5a0c47021fcc")
-		(property "Reference" "C45"
+		(property "Reference" "C101"
 			(at 168.91 153.6699 0)
 			(effects
 				(font
@@ -6109,7 +6109,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "18P"
+		(property "Value" "18pf"
 			(at 168.91 156.2099 0)
 			(effects
 				(font
@@ -6153,8 +6153,8 @@
 		)
 		(instances
 			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/2c89b534-1f3e-4e8b-9c0c-c669faa35136"
-					(reference "C45")
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/4ac374da-48c1-45fc-82eb-58af98bfd6f4"
+					(reference "C101")
 					(unit 1)
 				)
 			)
