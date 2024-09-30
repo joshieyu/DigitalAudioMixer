@@ -124,8 +124,8 @@
 		(uuid "fd7c9276-71cc-4e37-bcf7-eb405794398a")
 	)
 	(rectangle
-		(start 187.96 82.55)
-		(end 256.54 113.03)
+		(start 26.67 74.93)
+		(end 95.25 105.41)
 		(stroke
 			(width 0)
 			(type default)
@@ -148,8 +148,8 @@
 		(uuid a431d4ea-3826-4044-b789-472f3edaaabf)
 	)
 	(rectangle
-		(start 41.91 82.55)
-		(end 105.41 149.86)
+		(start 208.28 73.66)
+		(end 271.78 140.97)
 		(stroke
 			(width 0)
 			(type default)
@@ -159,9 +159,21 @@
 		)
 		(uuid c623997b-19c9-4575-a014-51edb71503b1)
 	)
+	(rectangle
+		(start 25.4 127)
+		(end 101.6 177.8)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid fc1f03fe-7935-497f-8cb0-66eb4dcef1a9)
+	)
 	(text "MCUs"
 		(exclude_from_sim no)
-		(at 74.93 78.74 0)
+		(at 241.3 69.85 0)
 		(effects
 			(font
 				(size 3 3)
@@ -187,7 +199,7 @@
 	)
 	(text "Signal Converters"
 		(exclude_from_sim no)
-		(at 219.71 79.756 0)
+		(at 58.42 72.136 0)
 		(effects
 			(font
 				(size 3 3)
@@ -197,6 +209,19 @@
 			)
 		)
 		(uuid "7d9afdc1-97fe-4e00-9733-63a68bee6e61")
+	)
+	(text "Preamp Circuitry\n"
+		(exclude_from_sim no)
+		(at 47.752 122.936 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "cbe72383-41b1-4b32-b341-6a50cac2049d")
 	)
 	(hierarchical_label "5V_IN"
 		(shape input)
@@ -309,7 +334,7 @@
 		)
 	)
 	(sheet
-		(at 228.6 88.9)
+		(at 67.31 81.28)
 		(size 24.13 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -321,7 +346,7 @@
 		)
 		(uuid "29bf6371-8a12-4a95-b0c2-fbe02aad04a0")
 		(property "Sheetname" "DACs"
-			(at 228.6 88.1884 0)
+			(at 67.31 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -330,7 +355,7 @@
 			)
 		)
 		(property "Sheetfile" "DAC.kicad_sch"
-			(at 228.6 104.7246 0)
+			(at 67.31 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -347,7 +372,7 @@
 		)
 	)
 	(sheet
-		(at 49.53 86.36)
+		(at 215.9 77.47)
 		(size 40.64 22.86)
 		(fields_autoplaced yes)
 		(stroke
@@ -359,7 +384,7 @@
 		)
 		(uuid "4ac374da-48c1-45fc-82eb-58af98bfd6f4")
 		(property "Sheetname" "Xcore"
-			(at 49.53 85.6484 0)
+			(at 215.9 76.7584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -368,7 +393,7 @@
 			)
 		)
 		(property "Sheetfile" "XCORE.kicad_sch"
-			(at 49.53 109.8046 0)
+			(at 215.9 100.9146 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -470,7 +495,7 @@
 		)
 	)
 	(sheet
-		(at 190.5 88.9)
+		(at 29.21 81.28)
 		(size 24.13 15.24)
 		(fields_autoplaced yes)
 		(stroke
@@ -482,7 +507,7 @@
 		)
 		(uuid "8f3dd01b-e3ea-4f9d-9f95-d4c91dcdbd45")
 		(property "Sheetname" "ADCs"
-			(at 190.5 88.1884 0)
+			(at 29.21 80.5684 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -491,7 +516,7 @@
 			)
 		)
 		(property "Sheetfile" "ADC.kicad_sch"
-			(at 190.5 104.7246 0)
+			(at 29.21 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -546,6 +571,44 @@
 		)
 	)
 	(sheet
+		(at 31.75 140.97)
+		(size 25.4 25.4)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c1ab5e5e-58d5-4459-9b3a-20cfd1816a00")
+		(property "Sheetname" "Preamps"
+			(at 31.75 140.2584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "PREAMPS.kicad_sch"
+			(at 31.75 166.9546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 158.75 30.48)
 		(size 68.58 5.08)
 		(fields_autoplaced yes)
@@ -584,7 +647,7 @@
 		)
 	)
 	(sheet
-		(at 236.22 143.51)
+		(at 127 175.26)
 		(size 45.72 17.78)
 		(fields_autoplaced yes)
 		(stroke
@@ -596,7 +659,7 @@
 		)
 		(uuid "fd4118b1-a8a6-4562-8d67-714d9eea274a")
 		(property "Sheetname" "recycle bin"
-			(at 236.22 142.7984 0)
+			(at 127 174.5484 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -605,7 +668,7 @@
 			)
 		)
 		(property "Sheetfile" "untitled.kicad_sch"
-			(at 236.22 161.8746 0)
+			(at 127 193.6246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
