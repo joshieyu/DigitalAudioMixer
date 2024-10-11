@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "8.0")
 	(uuid "08473a20-aa1a-4949-ae1f-3af0c1552bbb")
-	(paper "A4")
+	(paper "A2")
 	(title_block
 		(title "XCORE")
 		(company "Joshua Yu")
