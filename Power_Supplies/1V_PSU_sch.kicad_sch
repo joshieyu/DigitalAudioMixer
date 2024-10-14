@@ -1212,7 +1212,7 @@
 		)
 		(uuid "eb793ee8-c6f6-4bdf-8dd2-6243dbfcace9")
 	)
-	(global_label "1.8V"
+	(global_label "0.9V"
 		(shape output)
 		(at 194.31 63.5 0)
 		(fields_autoplaced yes)

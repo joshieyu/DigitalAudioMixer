@@ -4360,6 +4360,73 @@
 	)
 	(symbol
 		(lib_id "Device:C_Polarized_US")
+		(at 53.34 177.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08452cc4-987a-4ab7-bdb3-b06748d69d04")
+		(property "Reference" "C140"
+			(at 49.784 177.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10uF"
+			(at 57.15 178.308 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 53.34 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4526bde0-de9d-486b-908b-0f5506c60c75")
+		)
+		(pin "2"
+			(uuid "da4748a8-10f9-496c-aed3-48cfd218488c")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
+					(reference "C140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized_US")
 		(at 86.36 187.96 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7612,7 +7679,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
 			(at 40.64 177.8 0)
 			(effects
 				(font
