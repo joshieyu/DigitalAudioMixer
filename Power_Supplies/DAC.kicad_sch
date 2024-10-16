@@ -1470,231 +1470,6 @@
 				)
 			)
 		)
-		(symbol "Regulator_SwitchedCapacitor:MAX1044"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "U"
-				(at -6.35 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "MAX1044"
-				(at 3.81 11.43 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf"
-				(at 2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "monolithic CMOS switched capacitor voltage converter invert double divide multiply boost"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "DIP*W7.62mm* SOIC*3.9x4.9mm* MSOP*3x3mm*P0.65mm* TO?99*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "MAX1044_0_1"
-				(rectangle
-					(start -7.62 10.16)
-					(end 7.62 -10.16)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-			)
-			(symbol "MAX1044_1_1"
-				(pin no_connect line
-					(at -7.62 5.08 0)
-					(length 2.54) hide
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 2.54 180)
-					(length 2.54)
-					(name "CAP+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at 0 -12.7 90)
-					(length 2.54)
-					(name "GND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 10.16 -7.62 180)
-					(length 2.54)
-					(name "CAP-"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 10.16 7.62 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 -5.08 0)
-					(length 2.54)
-					(name "LV"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -10.16 0 0)
-					(length 2.54)
-					(name "OSC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "7"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -10.16 7.62 0)
-					(length 2.54)
-					(name "V+"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "8"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "power:Earth"
 			(power)
 			(pin_numbers hide)
@@ -1905,12 +1680,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "59fafa2b-cee0-42ac-ab7c-15d55bcf1e86")
-	)
-	(junction
-		(at 59.69 167.64)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c3c6179-a147-4574-907a-c0769d9e6257")
 	)
 	(junction
 		(at 73.66 111.76)
@@ -2368,16 +2137,6 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 172.72) (xy 53.34 173.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ce04ce4-0771-4a81-87a1-10b515d90126")
-	)
-	(wire
-		(pts
 			(xy 58.42 125.73) (xy 87.63 125.73)
 		)
 		(stroke
@@ -2528,16 +2287,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 167.64) (xy 59.69 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ad0f19d-ce37-4c88-a039-379965af57a8")
-	)
-	(wire
-		(pts
 			(xy 72.39 43.18) (xy 101.6 43.18)
 		)
 		(stroke
@@ -2565,16 +2314,6 @@
 			(type default)
 		)
 		(uuid "6dde8c97-00cf-486f-b93d-834d4e8dbe60")
-	)
-	(wire
-		(pts
-			(xy 48.26 182.88) (xy 53.34 182.88)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "72b2f4ef-82bb-4f47-a493-91450253c103")
 	)
 	(wire
 		(pts
@@ -3028,16 +2767,6 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 167.64) (xy 59.69 167.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0e20722-0bff-4aa3-ab68-1358fa81761d")
-	)
-	(wire
-		(pts
 			(xy 242.57 53.34) (xy 241.3 53.34)
 		)
 		(stroke
@@ -3128,16 +2857,6 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 172.72) (xy 53.34 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d3c18fe9-f5c7-467a-9b70-189a4d07932d")
-	)
-	(wire
-		(pts
 			(xy 242.57 53.34) (xy 242.57 60.96)
 		)
 		(stroke
@@ -3145,16 +2864,6 @@
 			(type default)
 		)
 		(uuid "d810b409-13a3-4389-ae87-dd065718af4c")
-	)
-	(wire
-		(pts
-			(xy 53.34 182.88) (xy 53.34 181.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfb4fefa-3b92-4037-ae78-1905a7addf4e")
 	)
 	(wire
 		(pts
@@ -3388,9 +3097,9 @@
 		)
 		(uuid "767aee68-fb15-45e8-ab7e-c2037e6785f7")
 	)
-	(text "Generates -5V for OPA2134"
+	(text "-5V supply rail for OPA2134 \ngenerated by the LT27761 in the ADCs page"
 		(exclude_from_sim no)
-		(at 37.846 193.548 0)
+		(at 43.688 183.896 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3641,7 +3350,7 @@
 			)
 		)
 	)
-	(global_label "-5V"
+	(global_label "-5V_2"
 		(shape input)
 		(at 76.2 173.99 180)
 		(fields_autoplaced yes)
@@ -3654,7 +3363,7 @@
 		)
 		(uuid "8630b64f-18b1-4525-b617-c0405ad4fd3d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 68.8683 173.99 0)
+			(at 66.6912 173.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3749,29 +3458,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "-5V"
-		(shape output)
-		(at 62.23 167.64 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify left)
-		)
-		(uuid "9b9aeab6-bc7b-424d-9936-d9702ce1b537")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 69.5617 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -3951,29 +3637,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "5V"
-		(shape input)
-		(at 27.94 167.64 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-				(bold yes)
-			)
-			(justify right)
-		)
-		(uuid "dc5d59c2-0322-44c7-b6a1-a27dbbbb0eaa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 22.1807 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -4353,73 +4016,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
 					(reference "R20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 53.34 177.8 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08452cc4-987a-4ab7-bdb3-b06748d69d04")
-		(property "Reference" "C140"
-			(at 49.784 177.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 57.15 178.308 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
-			(at 53.34 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 53.34 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 53.34 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4526bde0-de9d-486b-908b-0f5506c60c75")
-		)
-		(pin "2"
-			(uuid "da4748a8-10f9-496c-aed3-48cfd218488c")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "C140")
 					(unit 1)
 				)
 			)
@@ -5512,71 +5108,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:Earth")
-		(at 38.1 187.96 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "56d6657b-6091-4d73-b47e-68200046147a")
-		(property "Reference" "#PWR027"
-			(at 38.1 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 42.418 190.246 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 38.1 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 38.1 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 38.1 187.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "bd717c26-01f8-4106-9b97-b8ef7ed8f6fb")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Amplifier_Operational:OPA2134")
 		(at 86.36 166.37 270)
 		(mirror x)
@@ -6449,73 +5980,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Polarized_US")
-		(at 59.69 171.45 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8a1cf5e7-2c14-470a-b85b-62ff161f4776")
-		(property "Reference" "C33"
-			(at 63.246 171.45 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 55.88 170.942 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Polarized capacitor, US symbol"
-			(at 59.69 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "481baeed-3d40-4d88-ad99-b215cae4157f")
-		)
-		(pin "2"
-			(uuid "bab8b202-0fdf-4429-9b91-9a772ec377e1")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "C33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 43.18 45.72 90)
 		(unit 1)
@@ -6647,71 +6111,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
 					(reference "C28")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 59.69 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9ea2f850-1e55-485d-b146-47da12aebdaa")
-		(property "Reference" "#PWR028"
-			(at 59.69 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 63.246 178.816 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 59.69 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6f40c7cd-fe1f-4d13-8e9b-fdaa673b965f")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7655,91 +7054,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Regulator_SwitchedCapacitor:MAX1044")
-		(at 38.1 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "ccff5b58-1c94-4b98-90de-6065b31c42bb")
-		(property "Reference" "U9"
-			(at 44.196 164.084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "MAX1044"
-			(at 38.1 163.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "SamacSys_Parts:SOIC127P600X175-8N"
-			(at 40.64 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://datasheets.maximintegrated.com/en/ds/ICL7660-MAX1044.pdf"
-			(at 40.64 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Switched-Capacitor Voltage Converter, 1.5V to 10.0V operating supply voltage, 10mA with a 0.5V output drop, SO-8/DIP-8/µMAX-8/TO-99"
-			(at 38.1 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "b3ea8517-7e13-448c-a9a5-1c3e97719a85")
-		)
-		(pin "6"
-			(uuid "b8c8f173-903d-4b01-a19a-5eb4a3f287e5")
-		)
-		(pin "3"
-			(uuid "e7648588-3e26-4067-af52-026f74478cb2")
-		)
-		(pin "7"
-			(uuid "e9a9de12-d01a-43b3-9bc5-b8139bfe66e2")
-		)
-		(pin "2"
-			(uuid "03adfe44-749e-441e-a00e-e23159017fd1")
-		)
-		(pin "4"
-			(uuid "e14a5ac7-17e1-45c2-8dfd-0c634c03be11")
-		)
-		(pin "1"
-			(uuid "544d1b11-9372-408b-8cb9-b692dd3072a0")
-		)
-		(pin "8"
-			(uuid "b23d7bb9-cf9d-4742-97ea-bf1e05f8ba47")
-		)
-		(instances
-			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "U9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 76.2 46.99 90)
 		(unit 1)
@@ -7942,71 +7256,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
 					(reference "R21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth")
-		(at 27.94 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e7747c96-998b-41e9-a082-0d82ba84aa02")
-		(property "Reference" "#PWR032"
-			(at 27.94 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 27.432 184.404 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 27.94 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth\""
-			(at 27.94 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ec17ff5-3492-4ef9-ad9a-5c3fda98ba7d")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "#PWR032")
 					(unit 1)
 				)
 			)
