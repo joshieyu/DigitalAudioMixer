@@ -1229,7 +1229,7 @@
 		(uuid "f3f09eb7-b2cf-4d46-a048-2940c680db38")
 	)
 	(rectangle
-		(start 96.52 63.5)
+		(start 96.52 60.96)
 		(end 209.55 120.65)
 		(stroke
 			(width 0)
