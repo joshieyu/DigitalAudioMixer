@@ -1,0 +1,65 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36" version="24.8.0">
+  <diagram name="Page-1" id="GhdwFwVT1Xk1jX9P9y0T">
+    <mxGraphModel dx="405" dy="208" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-6" value="«device» &lt;b&gt;Mixer&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="300" y="60" width="450" height="420" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-2" value="«board» &lt;b&gt;Raspberry Pi 5&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="310" y="100" width="420" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-3" value="«board» &lt;b&gt;XMOS XCore&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="310" y="330" width="420" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-4" value="«device» &lt;b&gt;Mobile tablet&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="50" y="140" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-5" value="«device» &lt;b&gt;External&amp;nbsp;computer&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="50" y="340" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-7" value="«protocol»&lt;br&gt;WiFi" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;entryX=0;entryY=0;entryDx=95;entryDy=420;entryPerimeter=0;exitX=0;exitY=0;exitDx=55;exitDy=0;exitPerimeter=0;" parent="1" target="zbBV47Hz3iCshq7d-kt5-2" edge="1" source="zbBV47Hz3iCshq7d-kt5-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="150" as="sourcePoint" />
+            <mxPoint x="300" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-9" value="«protocol»&lt;br&gt;USB" style="endArrow=none;html=1;rounded=0;labelBackgroundColor=none;entryX=0.459;entryY=1.001;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0;exitDx=55;exitDy=0;exitPerimeter=0;" parent="1" target="zbBV47Hz3iCshq7d-kt5-3" edge="1" source="zbBV47Hz3iCshq7d-kt5-5">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="390" as="sourcePoint" />
+            <mxPoint x="300" y="389.76" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-13" value="«OS» &lt;b&gt;RTLinux 6.1&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="330" y="140" width="370" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-14" value="«OS» &lt;b&gt;FreeRTOS&lt;/b&gt;" style="verticalAlign=top;align=left;spacingTop=8;spacingLeft=2;spacingRight=12;shape=cube;size=10;direction=south;fontStyle=4;html=1;whiteSpace=wrap;" parent="1" vertex="1">
+          <mxGeometry x="330" y="370" width="370" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-16" value="«driver»&lt;br&gt;USB Audio Class 2.0" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="380" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-17" value="&lt;span style=&quot;text-align: left;&quot;&gt;«component»&lt;/span&gt;&lt;div&gt;&lt;b&gt;Mobile Interface&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="70" y="180" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-18" value="&lt;span style=&quot;text-align: left;&quot;&gt;«component»&lt;/span&gt;&lt;div&gt;&lt;b&gt;Onboard Interface&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="530" y="180" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="zbBV47Hz3iCshq7d-kt5-19" value="&lt;span style=&quot;text-align: left;&quot;&gt;«component»&lt;/span&gt;&lt;div&gt;&lt;b&gt;DSP Pipeline&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="450" y="390" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="aZ6KrdzcdrHcPBwDL9sO-1" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;«protocol»&lt;/span&gt;&lt;br style=&quot;forced-color-adjust: none; color: rgb(0, 0, 0); font-family: Helvetica; font-size: 11px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: nowrap; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial;&quot;&gt;&lt;span style=&quot;background-color: rgb(251, 251, 251);&quot;&gt;SPI&lt;/span&gt;" style="endArrow=none;html=1;rounded=0;exitX=0;exitY=0.362;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1.001;entryY=0.362;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry x="0.0136" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="510" y="330" as="sourcePoint" />
+            <mxPoint x="510" y="280.2399999999999" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aZ6KrdzcdrHcPBwDL9sO-2" value="&lt;span style=&quot;text-align: left;&quot;&gt;«component»&lt;/span&gt;&lt;div&gt;&lt;b&gt;Auto-Mixing&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="180" width="130" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
