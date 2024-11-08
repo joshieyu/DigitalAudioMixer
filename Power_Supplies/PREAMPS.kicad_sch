@@ -2962,7 +2962,7 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 365.76) (xy 27.94 363.22)
+			(xy 26.67 365.76) (xy 26.67 360.68)
 		)
 		(stroke
 			(width 0)
@@ -3672,6 +3672,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 360.68) (xy 48.26 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d1241c-18ea-4e40-bfbf-751e6210a2c0")
+	)
+	(wire
+		(pts
 			(xy 93.98 198.12) (xy 104.14 198.12)
 		)
 		(stroke
@@ -3682,7 +3692,7 @@
 	)
 	(wire
 		(pts
-			(xy 53.34 363.22) (xy 58.42 363.22)
+			(xy 55.88 363.22) (xy 58.42 363.22)
 		)
 		(stroke
 			(width 0)
@@ -3749,6 +3759,16 @@
 			(type default)
 		)
 		(uuid "384e4b2c-08a7-4652-8122-4b11c82aa13c")
+	)
+	(wire
+		(pts
+			(xy 46.99 360.68) (xy 48.26 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38559d6e-9cb0-4fa3-a9f1-d68c214408fc")
 	)
 	(wire
 		(pts
@@ -3932,7 +3952,7 @@
 	)
 	(wire
 		(pts
-			(xy 29.21 365.76) (xy 27.94 365.76)
+			(xy 29.21 365.76) (xy 26.67 365.76)
 		)
 		(stroke
 			(width 0)
@@ -4129,16 +4149,6 @@
 			(type default)
 		)
 		(uuid "505566f1-bd31-4994-948e-95663c57f8b3")
-	)
-	(wire
-		(pts
-			(xy 48.26 363.22) (xy 45.72 363.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5058ce6e-c61a-4cf0-9495-9476a14cf69b")
 	)
 	(wire
 		(pts
@@ -8851,6 +8861,156 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:ACJM-MV-2")
+		(at 184.15 307.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0cce438c-abaa-4ca6-bb22-dc3a46ef55f7")
+		(property "Reference" "J7"
+			(at 173.99 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACJM-MV-2"
+			(at 173.99 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ACJMMV2"
+			(at 167.64 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.amphenol-sine.com/pdf/datasheet/ACJM-MV-2.pdf"
+			(at 167.64 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
+			(at 184.15 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
+			(at 167.64 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "31.45"
+			(at 167.64 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Sine Systems"
+			(at 167.64 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ACJM-MV-2"
+			(at 167.64 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "523-ACJM-MV-2"
+			(at 167.64 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJM-MV-2?qs=t8%2F5FiDdxGYddeX2yxDacQ%3D%3D"
+			(at 167.64 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ACJM-MV-2"
+			(at 167.64 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/acjm-mv-2/amphenol?region=nac"
+			(at 167.64 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "eb6a2d81-2d5b-4bfc-9f67-91aae41848f8")
+		)
+		(pin "1"
+			(uuid "6f8754e1-ea70-42d1-9e93-5389287124b5")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 186.69 49.53 270)
 		(unit 1)
@@ -10924,156 +11084,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:ACJM-MV-2")
-		(at 26.67 307.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "33d2b69e-e80a-402e-b57d-6340fb14a067")
-		(property "Reference" "J20"
-			(at 36.83 299.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACJM-MV-2"
-			(at 36.83 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ACJMMV2"
-			(at 43.18 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.amphenol-sine.com/pdf/datasheet/ACJM-MV-2.pdf"
-			(at 43.18 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
-			(at 26.67 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
-			(at 43.18 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "31.45"
-			(at 43.18 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol Sine Systems"
-			(at 43.18 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACJM-MV-2"
-			(at 43.18 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "523-ACJM-MV-2"
-			(at 43.18 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJM-MV-2?qs=t8%2F5FiDdxGYddeX2yxDacQ%3D%3D"
-			(at 43.18 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "ACJM-MV-2"
-			(at 43.18 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/acjm-mv-2/amphenol?region=nac"
-			(at 43.18 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "ac57122a-6a5e-49de-943f-afd24e1f2273")
-		)
-		(pin "1"
-			(uuid "68e88dc1-8909-4135-8608-0524a375148b")
-		)
-		(instances
-			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
-					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 300.99 210.82 180)
 		(unit 1)
@@ -12468,6 +12478,156 @@
 		)
 	)
 	(symbol
+		(lib_id "SamacSys_Parts:ACJM-MV-2")
+		(at 184.15 363.22 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "456a809e-a528-4ce4-b478-818a74e3b2f1")
+		(property "Reference" "J6"
+			(at 173.99 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACJM-MV-2"
+			(at 173.99 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ACJMMV2"
+			(at 167.64 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.amphenol-sine.com/pdf/datasheet/ACJM-MV-2.pdf"
+			(at 167.64 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
+			(at 184.15 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
+			(at 167.64 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "31.45"
+			(at 167.64 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Sine Systems"
+			(at 167.64 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ACJM-MV-2"
+			(at 167.64 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "523-ACJM-MV-2"
+			(at 167.64 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJM-MV-2?qs=t8%2F5FiDdxGYddeX2yxDacQ%3D%3D"
+			(at 167.64 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ACJM-MV-2"
+			(at 167.64 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/acjm-mv-2/amphenol?region=nac"
+			(at 167.64 383.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "4cbdc2cf-385c-45d8-87d9-4ea2ccd11bba")
+		)
+		(pin "1"
+			(uuid "fcb07f07-2aa1-442f-aeb1-51df8cdf07c8")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 318.77 267.97 180)
 		(unit 1)
@@ -12942,6 +13102,156 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
 					(reference "C104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ACJM-MV-2")
+		(at 46.99 307.34 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dd62b82-1f88-4924-a7b7-ef028496f137")
+		(property "Reference" "J20"
+			(at 36.83 299.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACJM-MV-2"
+			(at 36.83 302.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ACJMMV2"
+			(at 30.48 304.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.amphenol-sine.com/pdf/datasheet/ACJM-MV-2.pdf"
+			(at 30.48 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
+			(at 46.99 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
+			(at 30.48 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "31.45"
+			(at 30.48 312.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Sine Systems"
+			(at 30.48 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ACJM-MV-2"
+			(at 30.48 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "523-ACJM-MV-2"
+			(at 30.48 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJM-MV-2?qs=t8%2F5FiDdxGYddeX2yxDacQ%3D%3D"
+			(at 30.48 322.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ACJM-MV-2"
+			(at 30.48 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/acjm-mv-2/amphenol?region=nac"
+			(at 30.48 327.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "bf39a059-e03e-470e-8443-e5cddd766408")
+		)
+		(pin "1"
+			(uuid "588c6c57-66c4-431c-a6a4-ea00d3319b2f")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
+					(reference "J20")
 					(unit 1)
 				)
 			)
@@ -13718,156 +14028,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
 					(reference "#PWR099")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SamacSys_Parts:ACJM-MV-2")
-		(at 27.94 363.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5b7c8b45-6cb7-4b51-8e67-0cf7f3ee412f")
-		(property "Reference" "J5"
-			(at 38.1 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACJM-MV-2"
-			(at 38.1 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ACJMMV2"
-			(at 44.45 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.amphenol-sine.com/pdf/datasheet/ACJM-MV-2.pdf"
-			(at 44.45 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
-			(at 27.94 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
-			(at 44.45 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "31.45"
-			(at 44.45 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol Sine Systems"
-			(at 44.45 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACJM-MV-2"
-			(at 44.45 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "523-ACJM-MV-2"
-			(at 44.45 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJM-MV-2?qs=t8%2F5FiDdxGYddeX2yxDacQ%3D%3D"
-			(at 44.45 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "ACJM-MV-2"
-			(at 44.45 381 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/acjm-mv-2/amphenol?region=nac"
-			(at 44.45 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "b29e815b-d342-422b-aafa-674810052e97")
-		)
-		(pin "1"
-			(uuid "4fdb600b-cc3e-49bf-ad27-7313c48ec43a")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
-					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -16838,156 +16998,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:ACJM-MV-2")
-		(at 163.83 363.22 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8fd5b30a-3ec0-4ff1-b353-c3e6e4aaf27f")
-		(property "Reference" "J6"
-			(at 173.99 355.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACJM-MV-2"
-			(at 173.99 358.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ACJMMV2"
-			(at 180.34 360.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.amphenol-sine.com/pdf/datasheet/ACJM-MV-2.pdf"
-			(at 180.34 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
-			(at 163.83 363.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
-			(at 180.34 365.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "31.45"
-			(at 180.34 368.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol Sine Systems"
-			(at 180.34 370.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACJM-MV-2"
-			(at 180.34 373.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "523-ACJM-MV-2"
-			(at 180.34 375.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJM-MV-2?qs=t8%2F5FiDdxGYddeX2yxDacQ%3D%3D"
-			(at 180.34 378.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "ACJM-MV-2"
-			(at 180.34 381 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/acjm-mv-2/amphenol?region=nac"
-			(at 180.34 383.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "f1a0300a-ef01-4eb9-a1d2-e50f437ab8a4")
-		)
-		(pin "1"
-			(uuid "b3178d0f-6844-4122-acef-bd574895d0a1")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
-					(reference "J6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 323.85 259.08 270)
 		(unit 1)
@@ -19831,156 +19841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "SamacSys_Parts:ACJM-MV-2")
-		(at 163.83 307.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bc7a978b-c971-4e08-8b52-179b6f0f0544")
-		(property "Reference" "J7"
-			(at 173.99 299.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "ACJM-MV-2"
-			(at 173.99 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "ACJMMV2"
-			(at 180.34 304.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.amphenol-sine.com/pdf/datasheet/ACJM-MV-2.pdf"
-			(at 180.34 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
-			(at 163.83 307.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
-			(at 180.34 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Height" "31.45"
-			(at 180.34 312.42 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Amphenol Sine Systems"
-			(at 180.34 314.96 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "ACJM-MV-2"
-			(at 180.34 317.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "523-ACJM-MV-2"
-			(at 180.34 320.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJM-MV-2?qs=t8%2F5FiDdxGYddeX2yxDacQ%3D%3D"
-			(at 180.34 322.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" "ACJM-MV-2"
-			(at 180.34 325.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/acjm-mv-2/amphenol?region=nac"
-			(at 180.34 327.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "5b0a0c40-f61b-4fcc-94d9-6122c9594ca9")
-		)
-		(pin "1"
-			(uuid "2746c046-a770-4c23-8145-9aa3e4894031")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
-					(reference "J7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 220.98 322.58 270)
 		(unit 1)
@@ -22800,7 +22660,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 49.53 363.22 270)
+		(at 52.07 363.22 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -22809,7 +22669,7 @@
 		(fields_autoplaced yes)
 		(uuid "e60119ac-7916-4f06-a0bb-5b0c323b1c57")
 		(property "Reference" "C59"
-			(at 49.53 355.6 90)
+			(at 52.07 355.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22817,7 +22677,7 @@
 			)
 		)
 		(property "Value" "0.01uF"
-			(at 49.53 358.14 90)
+			(at 52.07 358.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22825,7 +22685,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 45.72 364.1852 0)
+			(at 48.26 364.1852 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22834,7 +22694,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 363.22 0)
+			(at 52.07 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22843,7 +22703,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 49.53 363.22 0)
+			(at 52.07 363.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -22994,6 +22854,156 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
 					(reference "C64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "SamacSys_Parts:ACJM-MV-2")
+		(at 46.99 360.68 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "eb272123-526f-4665-97ee-3a4d280b34e5")
+		(property "Reference" "J5"
+			(at 36.83 353.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "ACJM-MV-2"
+			(at 36.83 355.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "ACJMMV2"
+			(at 30.48 358.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.amphenol-sine.com/pdf/datasheet/ACJM-MV-2.pdf"
+			(at 30.48 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
+			(at 46.99 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "1/4\" Single Vertical PCB Phone Jack, Mono (2 Channels), Metal Bore, Metal Nut, Metal Thread"
+			(at 30.48 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Height" "31.45"
+			(at 30.48 365.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "Amphenol Sine Systems"
+			(at 30.48 368.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "ACJM-MV-2"
+			(at 30.48 370.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "523-ACJM-MV-2"
+			(at 30.48 373.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Amphenol-Audio/ACJM-MV-2?qs=t8%2F5FiDdxGYddeX2yxDacQ%3D%3D"
+			(at 30.48 375.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" "ACJM-MV-2"
+			(at 30.48 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" "https://www.arrow.com/en/products/acjm-mv-2/amphenol?region=nac"
+			(at 30.48 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fafdfaf2-4896-44be-a3b9-343cf4ba6896")
+		)
+		(pin "1"
+			(uuid "a868e18c-2792-46bc-8f14-1d0e4afb5cb4")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
+					(reference "J5")
 					(unit 1)
 				)
 			)
