@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:web_socket_channel/web_socket_channel.dart';
 
 void main() {
   runApp(const MyApp());
@@ -55,6 +56,9 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
+  final WebSocketChannel channel = WebSocketChannel.connect(
+    Uri.parse('ws://127.0.0.1:9001'),
+  );
   int _counter = 0;
 
   void _incrementCounter() {
@@ -66,6 +70,18 @@ class _MyHomePageState extends State<MyHomePage> {
       // called again, and so nothing would appear to happen.
       _counter++;
     });
+    try {
+      channel.sink.add('Counter: $_counter');
+      print('Sent: Counter: $_counter');
+    } catch (e) {
+      print('Error sending message: $e');
+    }
+  }
+
+  @override
+  void dispose() {
+    channel.sink.close();
+    super.dispose();
   }
 
   @override
