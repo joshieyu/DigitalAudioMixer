@@ -2612,7 +2612,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SamacSys_Parts:SOP65P490X110-9N"
+		(property "Footprint" "SamacSys_Parts:SOP50P490X110-11N"
 			(at 161.29 60.96 0)
 			(effects
 				(font
@@ -3602,7 +3602,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PEC11R4030FN0024"
+		(property "Footprint" "SamacSys_Parts:PEC11R4030FN0024"
 			(at 187.96 119.38 0)
 			(effects
 				(font

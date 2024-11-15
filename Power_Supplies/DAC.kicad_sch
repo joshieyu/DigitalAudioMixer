@@ -6137,7 +6137,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 205.74 46.99 90)
+		(at 205.74 46.99 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6162,7 +6162,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 209.55 46.0248 0)
+			(at 201.93 47.9552 0)
 			(effects
 				(font
 					(size 1.27 1.27)

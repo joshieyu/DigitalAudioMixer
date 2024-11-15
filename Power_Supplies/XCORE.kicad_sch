@@ -10590,7 +10590,7 @@
 				)
 			)
 		)
-		(property "Footprint" "2171790001_MOL"
+		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43045-1615_2x08_P3.00mm_Vertical"
 			(at 266.7 77.47 0)
 			(effects
 				(font
@@ -10830,7 +10830,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "CON20_2X10_DUK_FTSH_SAI"
+		(property "Footprint" "SamacSys_Parts:FTSH-110-XX-YYY-DV-K-A"
 			(at 132.08 60.96 0)
 			(effects
 				(font
@@ -11245,7 +11245,7 @@
 				)
 			)
 		)
-		(property "Footprint" "FA-238_EPS"
+		(property "Footprint" "SamacSys_Parts:FA-238_EPS"
 			(at 295.91 347.98 0)
 			(effects
 				(font
@@ -11524,7 +11524,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "BLM18AG601SZ1D:BEADC1608X95N"
+		(property "Footprint" "SamacSys_Parts:BLM18SP221SN1B"
 			(at 260.35 225.298 0)
 			(effects
 				(font
