@@ -1754,7 +1754,7 @@
 			)
 		)
 	)
-	(global_label "15V"
+	(global_label "12V"
 		(shape input)
 		(at 92.71 57.15 180)
 		(fields_autoplaced yes)
@@ -2187,7 +2187,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "6823d91b-b7e0-4aa8-a377-be7c98e8bf77")
 		(property "Reference" "C235"
@@ -2388,7 +2388,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "7995ce0d-2972-49f8-9e13-eb64f0bd25f5")
 		(property "Reference" "R176"
@@ -2525,7 +2525,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "8deec674-1308-4d55-bd78-9e6d8ab69184")
 		(property "Reference" "R178"
@@ -2769,7 +2769,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2f9f5d9-db07-43c6-901d-8ec8345e0753")
@@ -2906,7 +2906,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "b718994a-136d-434c-9b22-f503c55ce1c7")
 		(property "Reference" "C234"
@@ -3045,7 +3045,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c166856b-b463-41fc-8573-efea50c4688d")
@@ -3319,7 +3319,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d1c4cb7e-8e77-4546-b622-2e5454d48c90")
 		(property "Reference" "#PWR0225"
@@ -3384,7 +3384,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "d6bef39e-aaf7-44bf-b01b-4fc66e712fe1")
 		(property "Reference" "#PWR0224"
@@ -3517,7 +3517,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(uuid "eb68e8e7-cd46-4a00-a3ac-1af385a9c92a")
 		(property "Reference" "#PWR0223"
@@ -3582,7 +3582,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef9c7e3f-8bfe-4219-afde-b351ea3bfb57")
