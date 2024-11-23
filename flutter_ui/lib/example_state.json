@@ -1,0 +1,26 @@
+{
+    "auto_mixer": {
+        "running": false
+    },
+    "channels": [
+        {
+            "id": 1,
+            "name": "Channel 1",
+            "input_gain": 0.0,
+            "output_gain": 0.0,
+            "panning": 0.0,
+            "muted": false,
+            "soloed": false,
+            "effects": { 
+                "compressor": {
+                    "enabled": true,
+                    "comp_threshold": 0.0,
+                    "comp_ratio": 1.0,
+                    "comp_attack": 5.0,
+                    "comp_release": 5.0,
+                    "comp_makeup_gain": 0.0
+                }
+             }
+        }
+    ]
+}
