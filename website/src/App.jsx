@@ -3,6 +3,8 @@ import { Button, Image, MantineProvider } from '@mantine/core';
 import '@mantine/core/styles.css';
 import ucfLogo from '/src/assets/ucfLogo.png';
 import dncDocument from '/src/assets/dncDocument.pdf';
+import sixtyDocument from '/src/assets/60pageDocument.pdf';
+import finalDocument from '/src/assets/finalDocument.pdf';
 import CrewmateBio from './CrewmateBio';
 import roleReveal from '/src/assets/roleReveal.png';
 
@@ -99,6 +101,10 @@ function App() {
           <div>
             <h2>Documents</h2>
             <Button component="a" href={dncDocument} target="_blank">Divide and Conquer</Button>
+            <Button component="a" href={sixtyDocument} target="_blank">60 Page Document</Button>
+            <Button component="a" href={finalDocument} target="_blank">Final Document</Button>
+            <Button component="a" href="https://www.youtube.com/watch?v=SC1ow58E5GI" target="_blank">Demo Video</Button>
+
           </div>
           <hr className="w-full" />
           <div>

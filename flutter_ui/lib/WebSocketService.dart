@@ -1,20 +1,46 @@
 import 'dart:convert';
-import 'package:web_socket_channel/web_socket_channel.dart';
+import 'dart:io';
 
 class WebSocketService {
-  final WebSocketChannel channel;
+  static final WebSocketService _instance = WebSocketService._internal();
+  WebSocket? _socket;
 
-  WebSocketService(String url)
-      : channel = WebSocketChannel.connect(Uri.parse(url));
-
-  void sendMessage(Map<String, dynamic> message) {
-    channel.sink.add(jsonEncode(message));
+  factory WebSocketService() {
+    return _instance;
   }
 
-  Stream<Map<String, dynamic>> get messages =>
-      channel.stream.map((event) => jsonDecode(event));
-  
-  void close() {
-    channel.sink.close();
+  WebSocketService._internal();
+
+  Future<void> connect(String url) async {
+    try {
+      _socket = await WebSocket.connect(url);
+      _socket!.listen(
+        (data) {
+          print('Received data: $data');
+        },
+        onDone: () {
+          print('Connection closed');
+        },
+        onError: (error) {
+          print('Error: $error');
+        },
+      );
+      print('Connected to $url');
+    } catch (e) {
+      print('Failed to connect: $e');
+    }
+  }
+
+  void send(List<Map<String, dynamic>> patch) {
+    if (_socket != null && _socket!.readyState == WebSocket.open) {
+      _socket!.add(jsonEncode(patch));
+      print('Sent patch: $patch');
+    } else {
+      print('WebSocket is not connected');
+    }
+  }
+
+  void disconnect() {
+    _socket?.close();
   }
 }

@@ -1,67 +1,58 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import 'package:flutter_ui/MixerState.dart';
+import 'MixerState.dart';
+import 'Effects.dart';
 
-class ChannelStrip extends StatefulWidget {
-  final int id;
+class ChannelStrip extends StatelessWidget {
+  final int channelIndex;
+  final Map<String, dynamic> channelState;
 
-  ChannelStrip({required this.id});
+  ChannelStrip({required this.channelIndex, required this.channelState});
 
-  @override
-  _ChannelStripState createState() => _ChannelStripState();
-}
-
-class _ChannelStripState extends State<ChannelStrip> {
   @override
   Widget build(BuildContext context) {
-    final mixerState = Provider.of<MixerState>(context);
-    final channelStrip = mixerState.channelStrips[widget.id];
-
     return Column(
-      mainAxisAlignment: MainAxisAlignment.center,
       children: [
-        Text(widget.id.toString(), style: TextStyle(fontSize: 18, fontWeight: FontWeight.bold)),
-        RotatedBox(
-          quarterTurns: -1,
-          child: Slider(
-            value: channelStrip.gain,
-            min: ChannelStripRanges.gain.min,
-            max: ChannelStripRanges.gain.max,
+        Text("Channel ${channelIndex + 1}"),
+        Selector<MixerState, double>(
+          selector: (_, mixerState) =>
+              mixerState.state["channels"][channelIndex]["input_gain"],
+          builder: (_, inputGain, __) => RotatedBox(
+            quarterTurns: 3,
+            child: Slider(
+              value: inputGain,
+              min: -48.0,
+              max: 24.0,
+              onChanged: (value) {
+                final path =
+                    r'/channels/' + channelIndex.toString() + r'/input_gain';
+                Provider.of<MixerState>(context, listen: false)
+                    .updateState(path, value);
+              },
+            ),
+          ),
+        ),
+        Selector<MixerState, bool>(
+          selector: (_, mixerState) =>
+              mixerState.state["channels"][channelIndex]["muted"],
+          builder: (_, muted, __) => Switch(
+            value: muted,
             onChanged: (value) {
-              setState(() {
-                channelStrip.gain = value;
-                mixerState.updateChannelStrip(widget.id, channelStrip);
-              });
+              final path = r'/channels/' + channelIndex.toString() + r'/muted';
+              Provider.of<MixerState>(context, listen: false)
+                  .updateState(path, value);
             },
           ),
         ),
-        Text('Gain: ${(channelStrip.gain).toStringAsFixed(1)} dB'),
-        Row(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            IconButton(
-              icon: Icon(
-                channelStrip.muted ? Icons.volume_off : Icons.volume_up,
-              ),
-              onPressed: () {
-                setState(() {
-                  channelStrip.muted = !channelStrip.muted;
-                  mixerState.updateChannelStrip(widget.id, channelStrip);
-                });
-              },
+        Expanded(
+          child: Selector<MixerState, Map<String, dynamic>>(
+            selector: (_, mixerState) =>
+                mixerState.state["channels"][channelIndex]["effects"],
+            builder: (_, effectsState, __) => Effects(
+              channelIndex: channelIndex,
+              effectsState: effectsState,
             ),
-            IconButton(
-              icon: Icon(
-                channelStrip.solo ? Icons.headset : Icons.headset_off,
-              ),
-              onPressed: () {
-                setState(() {
-                  channelStrip.solo = !channelStrip.solo;
-                  mixerState.updateChannelStrip(widget.id, channelStrip);
-                });
-              },
-            ),
-          ],
+          ),
         ),
       ],
     );

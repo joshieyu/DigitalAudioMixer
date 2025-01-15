@@ -1,216 +1,297 @@
 import 'package:flutter/material.dart';
-import 'WebSocketService.dart';
+import 'package:flutter_ui/WebSocketService.dart';
+import 'package:json_path/json_path.dart';
+import 'package:json_schema/json_schema.dart';
+import 'dart:convert';
+import 'package:flutter/services.dart' show rootBundle;
+import 'package:json_patch/json_patch.dart';
 
-class MixerState with ChangeNotifier {
-  final WebSocketService _webSocketService = WebSocketService('ws://localhost:8080');
-  List<ChannelStripModel> channelStrips =
-      List.generate(9, (index) => ChannelStripModel());
+Future<Map<String, dynamic>> loadMixerStateSchema() async {
+  final schemaString =
+      await rootBundle.loadString('assets/mixer_state_schema.json');
+  return jsonDecode(schemaString);
+}
 
-  void updateChannelStrip(int index, ChannelStripModel channelStrip) {
-    if (index >= 0 && index < channelStrips.length) {
-      channelStrips[index] = channelStrip;
-      notifyListeners();
+class MixerState extends ChangeNotifier {
+  Map<String, dynamic> _state;
+
+  // JSON Schema for validation (define your schema here)
+  final Map<String, dynamic> _jsonSchema = {
+    "\$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+      "auto_mixer": {
+        "type": "object",
+        "properties": {
+          "running": {"type": "boolean"}
+        },
+        "required": ["running"]
+      },
+      "channels": {
+        "type": "array",
+        "minItems": 9,
+        "maxItems": 9,
+        "items": {
+          "type": "object",
+          "properties": {
+            "id": {"type": "integer"},
+            "name": {"type": "string"},
+            "input_gain": {"type": "number", "minimum": -48.0, "maximum": 24.0},
+            "output_gain": {
+              "type": "number",
+              "minimum": -48.0,
+              "maximum": 24.0
+            },
+            "panning": {"type": "number", "minimum": -1.0, "maximum": 1.0},
+            "muted": {"type": "boolean"},
+            "soloed": {"type": "boolean"},
+            "effects": {
+              "type": "object",
+              "properties": {
+                "compressor": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {"type": "boolean"},
+                    "comp_threshold": {
+                      "type": "number",
+                      "minimum": -60.0,
+                      "maximum": 0.0
+                    },
+                    "comp_ratio": {
+                      "type": "number",
+                      "minimum": 1.0,
+                      "maximum": 20.0
+                    },
+                    "comp_attack": {
+                      "type": "number",
+                      "minimum": 5.0,
+                      "maximum": 100.0
+                    },
+                    "comp_release": {
+                      "type": "number",
+                      "minimum": 5.0,
+                      "maximum": 100.0
+                    },
+                    "comp_makeup_gain": {
+                      "type": "number",
+                      "minimum": 0.0,
+                      "maximum": 12.0
+                    }
+                  },
+                  "required": [
+                    "enabled",
+                    "comp_threshold",
+                    "comp_ratio",
+                    "comp_attack",
+                    "comp_release",
+                    "comp_makeup_gain"
+                  ]
+                },
+                "equalizer": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {"type": "boolean"},
+                    "low_shelf_gain": {
+                      "type": "number",
+                      "minimum": -20.0,
+                      "maximum": 20.0
+                    },
+                    "low_shelf_cutoff": {
+                      "type": "number",
+                      "minimum": 20.0,
+                      "maximum": 1000.0
+                    },
+                    "band0_gain": {
+                      "type": "number",
+                      "minimum": -20.0,
+                      "maximum": 20.0
+                    },
+                    "band0_cutoff": {
+                      "type": "number",
+                      "minimum": 60.0,
+                      "maximum": 1000.0
+                    },
+                    "band0_q": {
+                      "type": "number",
+                      "minimum": 0.1,
+                      "maximum": 6.0
+                    },
+                    "band1_gain": {
+                      "type": "number",
+                      "minimum": -20.0,
+                      "maximum": 20.0
+                    },
+                    "band1_cutoff": {
+                      "type": "number",
+                      "minimum": 1000.0,
+                      "maximum": 7000.0
+                    },
+                    "band1_q": {
+                      "type": "number",
+                      "minimum": 0.1,
+                      "maximum": 6.0
+                    },
+                    "high_shelf_gain": {
+                      "type": "number",
+                      "minimum": -20.0,
+                      "maximum": 20.0
+                    },
+                    "high_shelf_cutoff": {
+                      "type": "number",
+                      "minimum": 4000.0,
+                      "maximum": 21050.0
+                    },
+                    "high_shelf_q": {
+                      "type": "number",
+                      "minimum": 0.1,
+                      "maximum": 6.0
+                    }
+                  },
+                  "required": [
+                    "enabled",
+                    "low_shelf_gain",
+                    "low_shelf_cutoff",
+                    "band0_gain",
+                    "band0_cutoff",
+                    "band0_q",
+                    "band1_gain",
+                    "band1_cutoff",
+                    "band1_q",
+                    "high_shelf_gain",
+                    "high_shelf_cutoff",
+                    "high_shelf_q"
+                  ]
+                },
+                "reverb": {
+                  "type": "object",
+                  "properties": {
+                    "enabled": {"type": "boolean"},
+                    "reverb_time": {
+                      "type": "number",
+                      "minimum": 0.1,
+                      "maximum": 10.0
+                    }
+                  },
+                  "required": ["enabled", "reverb_time"]
+                }
+              },
+              "required": ["compressor", "equalizer", "reverb"]
+            }
+          },
+          "required": [
+            "id",
+            "name",
+            "input_gain",
+            "output_gain",
+            "panning",
+            "muted",
+            "soloed",
+            "effects"
+          ]
+        }
+      }
+    },
+    "required": ["auto_mixer", "channels"]
+  };
+
+  MixerState(this._state);
+
+  Map<String, dynamic> get state => _state;
+
+  void updateState(String path, dynamic value) {
+    // Validate the change against JSON Schema
+    if (!_validateChange(path, value)) {
+      throw Exception("Invalid state update for $path");
+    }
+
+    // Generate JSON Patch
+    final patch = _generatePatch(path, value);
+
+    // Apply the patch
+    _applyPatch(patch);
+
+    // Notify listeners
+    notifyListeners();
+
+    // Send JSON patch
+    _sendPatch(patch);
+  }
+
+  bool _validateChange(String path, dynamic value) {
+    // TODO: seems very inefficent to continually recreate schema
+    final schema = JsonSchema.create(_jsonSchema);
+    final updatedState = {..._state};
+
+    // Virtually apply the change
+    _applyPatch(_generatePatch(path, value), updatedState);
+
+    // Validate against schema
+    return schema.validate(updatedState).isValid;
+  }
+
+  List<Map<String, dynamic>> _generatePatch(String path, dynamic value) {
+    return [
+      {"op": "replace", "path": path, "value": value}
+    ];
+  }
+
+  void _applyPatch(List<Map<String, dynamic>> patch,
+      [Map<String, dynamic>? json]) {
+    final target = json ?? _state;
+    try {
+      for (var operation in patch) {
+        // Extract the path and value from the operation
+        final pathSegments = (operation['path'] as String)
+            .split('/')
+            .where((segment) => segment.isNotEmpty)
+            .toList();
+        final value = operation['value'];
+
+        // Traverse the JSON object to find the target location
+        dynamic current = target;
+        for (int i = 0; i < pathSegments.length - 1; i++) {
+          final segment = pathSegments[i];
+          if (current is List) {
+            current = current[int.parse(segment)];
+          } else if (current is Map<String, dynamic>) {
+            current = current[segment];
+          } else {
+            throw Exception("Invalid path segment: $segment");
+          }
+        }
+
+        // Apply the patch operation to the final segment
+        final lastSegment = pathSegments.last;
+        if (current is List) {
+          current[int.parse(lastSegment)] = value;
+        } else if (current is Map<String, dynamic>) {
+          current[lastSegment] = value;
+        } else {
+          throw Exception(
+              "Cannot apply patch: invalid path or target structure.");
+        }
+      }
+
+      // Print updated state for debugging
+      print("Updated state: $target");
+      notifyListeners(); // Notify listeners to rebuild UI
+    } catch (e) {
+      throw Exception("Failed to apply JSON Patch: $e");
     }
   }
 
-
-void sendUpdate(String parameter, dynamic value) {
-    final message = {
-      'type': 'updateParameter',
-      'parameter': parameter,
-      'value': value,
-    };
-    _webSocketService.sendMessage(message);
-  }
-
-void setProperty<T>(String propertyName, T value, T Function() getter, void Function(T) setter) {
-    setter(value);
-    notifyListeners();
-    sendUpdate(propertyName, value);
+  void _sendPatch(List<Map<String, dynamic>> patch) {
+    print("Sending patch: $patch");
+    // Implement WebSocket transmission here
+    // Example: WebSocketService.send(patch);
+    WebSocketService().send(patch);
   }
 }
 
-class MixerConstants {
-  static const double sampleRate = 44100.0;
+extension ChannelExtension on Map<String, dynamic> {
+  Map<String, dynamic> getChannel(int index) => this["channels"][index];
 }
 
-class Range {
-  final double min;
-  final double max;
-  const Range({required this.min, required this.max});
-}
-
-class EqualizerRanges {
-  static const Range dB = Range(min: -20.0, max: 20.0);
-  static const Range Q = Range(min: 0.1, max: 6.0);
-  static const Range lowShelfCutoff = Range(min: 20.0, max: 1000.0);
-  static const Range band0Cutoff = Range(min: 60.0, max: 1000.0);
-  static const Range band1Cutoff = Range(min: 1000.0, max: 7000.0);
-  static const Range highShelfCutoff =
-      Range(min: 4000.0, max: MixerConstants.sampleRate / 2 - 1000);
-}
-
-class EqualizerModel with ChangeNotifier {
-  double _lowShelfGain = 0.0;
-  double _lowShelfCutoff = 20.0;
-  double _band0Gain = 0.0;
-  double _band0Cutoff = 60.0;
-  double _band0Q = 0.1;
-  double _band1Gain = 0.0;
-  double _band1Cutoff = 1000.0;
-  double _band1Q = 0.1;
-  double _highShelfGain = 0.0;
-  double _highShelfCutoff = 4000.0;
-  double _highShelfQ = 0.1;
-
-  double get lowShelfGain => _lowShelfGain;
-  // set lowShelfGain(double value) {
-  //   _lowShelfGain = value;
-  //   notifyListeners();
-  //   MixerState().sendUpdate('lowShelfGain', value);
-  // }
-  set lowShelfGain(double value) {
-    MixerState().setProperty('lowShelfGain', value, () => _lowShelfGain, (val) => _lowShelfGain = val);
-  }
-
-  double get lowShelfCutoff => _lowShelfCutoff;
-  set lowShelfCutoff(double value) {
-    _lowShelfCutoff = value;
-    notifyListeners();
-  }
-
-  double get band0Gain => _band0Gain;
-  set band0Gain(double value) {
-    _band0Gain = value;
-    notifyListeners();
-  }
-
-  double get band0Cutoff => _band0Cutoff;
-  set band0Cutoff(double value) {
-    _band0Cutoff = value;
-    notifyListeners();
-  }
-
-  double get band0Q => _band0Q;
-  set band0Q(double value) {
-    _band0Q = value;
-    notifyListeners();
-  }
-
-  double get band1Gain => _band1Gain;
-  set band1Gain(double value) {
-    _band1Gain = value;
-    notifyListeners();
-  }
-
-  double get band1Cutoff => _band1Cutoff;
-  set band1Cutoff(double value) {
-    _band1Cutoff = value;
-    notifyListeners();
-  }
-
-  double get band1Q => _band1Q;
-  set band1Q(double value) {
-    _band1Q = value;
-    notifyListeners();
-  }
-
-  double get highShelfGain => _highShelfGain;
-  set highShelfGain(double value) {
-    _highShelfGain = value;
-    notifyListeners();
-  }
-
-  double get highShelfCutoff => _highShelfCutoff;
-  set highShelfCutoff(double value) {
-    _highShelfCutoff = value;
-    notifyListeners();
-  }
-
-  double get highShelfQ => _highShelfQ;
-  set highShelfQ(double value) {
-    _highShelfQ = value;
-    notifyListeners();
-  }
-}
-
-class CompressorRanges {
-  static const Range threshold = Range(min: -60.0, max: 0.0);
-  static const Range ratio = Range(min: 1.0, max: 20.0);
-  static const Range attack = Range(min: 5.0, max: 100.0);
-  static const Range release = Range(min: 5.0, max: 100.0);
-  static const Range makeupGain = Range(min: 0.0, max: 12.0);
-}
-
-class CompressorModel with ChangeNotifier {
-  double _threshold = -20.0;
-  double _ratio = 4.0;
-  double _attack = 20.0;
-  double _release = 100.0;
-  double _makeupGain = 0.0;
-
-  double get threshold => _threshold;
-  set threshold(double value) {
-    _threshold = value;
-    notifyListeners();
-  }
-
-  double get ratio => _ratio;
-  set ratio(double value) {
-    _ratio = value;
-    notifyListeners();
-  }
-
-  double get attack => _attack;
-  set attack(double value) {
-    _attack = value;
-    notifyListeners();
-  }
-
-  double get release => _release;
-  set release(double value) {
-    _release = value;
-    notifyListeners();
-  }
-
-  double get makeupGain => _makeupGain;
-  set makeupGain(double value) {
-    _makeupGain = value;
-    notifyListeners();
-  }
-}
-
-class ReverbRanges {
-  static const Range reverbTime = Range(min: 0.1, max: 10.0);
-}
-
-class ReverbModel extends ChangeNotifier {
-  double _reverbTime = 1.0;
-
-  double get reverbTime => _reverbTime;
-  set reverbTime(double value) {
-    _reverbTime = value;
-    notifyListeners();
-  }
-}
-
-class ChannelStripRanges {
-  static const Range gain = Range(min: -48.0, max: 24.0);
-  static const Range pan = Range(min: -1.0, max: 1.0);
-}
-
-class ChannelStripModel with ChangeNotifier {
-  double gain = 0.0;
-  double pan = 0.0;
-  bool muted = false;
-  bool solo = false;
-
-  final EqualizerModel equalizer;
-  final CompressorModel compressor;
-  final ReverbModel reverb;
-
-  ChannelStripModel()
-      : equalizer = EqualizerModel(),
-        compressor = CompressorModel(),
-        reverb = ReverbModel();
+extension EffectsExtension on Map<String, dynamic> {
+  Map<String, dynamic> get effects => this["effects"];
 }

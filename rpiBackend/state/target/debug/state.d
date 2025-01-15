@@ -1,1 +1,1 @@
-/Users/juniyeom/Documents/DigitalAudioMixer/rpiBackend/state/target/debug/state: /Users/juniyeom/Documents/DigitalAudioMixer/rpiBackend/state/src/main.rs
+/Users/juniyeom/DigitalAudioMixer/rpiBackend/state/target/debug/state: /Users/juniyeom/DigitalAudioMixer/rpiBackend/state/src/main.rs
