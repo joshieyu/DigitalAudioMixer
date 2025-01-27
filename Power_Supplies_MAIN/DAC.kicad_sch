@@ -4787,7 +4787,7 @@
 			)
 		)
 	)
-	(global_label "BCK"
+	(global_label "BCLK_DAC"
 		(shape input)
 		(at 39.37 43.18 180)
 		(fields_autoplaced yes)
@@ -4800,7 +4800,7 @@
 		)
 		(uuid "8446fd57-b926-49bc-bc45-b5033f5e042a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 32.0988 43.18 0)
+			(at 26.4745 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +4877,7 @@
 			)
 		)
 	)
-	(global_label "LRCK"
+	(global_label "LRCK_DAC"
 		(shape input)
 		(at 39.37 48.26 180)
 		(fields_autoplaced yes)
@@ -4890,7 +4890,7 @@
 		)
 		(uuid "924ff541-db62-4c7b-ba99-30f0a27b4dc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.0707 48.26 0)
+			(at 26.4745 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
