@@ -7606,16 +7606,6 @@
 	)
 	(wire
 		(pts
-			(xy 488.95 80.01) (xy 513.08 80.01)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07226930-bbf5-4ffb-9737-11ad164dd3f9")
-	)
-	(wire
-		(pts
 			(xy 464.82 251.46) (xy 468.63 251.46)
 		)
 		(stroke
@@ -10000,7 +9990,7 @@
 			)
 		)
 	)
-	(global_label "Rotary+"
+	(global_label "CHANNEL_1"
 		(shape input)
 		(at 349.25 72.39 180)
 		(fields_autoplaced yes)
@@ -10012,7 +10002,7 @@
 		)
 		(uuid "501b5b0e-4f7d-409d-86b0-5718b500c7fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.6449 72.39 0)
+			(at 335.5605 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10154,50 +10144,6 @@
 			)
 		)
 	)
-	(global_label "Rotary_Ground"
-		(shape input)
-		(at 513.08 80.01 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "684a8ac6-9331-4a15-87f5-675224fbc2fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 529.7325 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SAI2_MCLK_B"
-		(shape input)
-		(at 97.79 238.76 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "694c4288-d72c-4ab9-b47c-0de88be0ae6b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.4677 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "3.3V"
 		(shape input)
 		(at 457.2 238.76 180)
@@ -10330,7 +10276,7 @@
 			)
 		)
 	)
-	(global_label "Rotary-"
+	(global_label "CHANNEL_2"
 		(shape input)
 		(at 513.08 82.55 0)
 		(fields_autoplaced yes)
@@ -10342,7 +10288,7 @@
 		)
 		(uuid "7b39b7d3-28c9-4fd2-a695-7cd608cb3326")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 523.6851 82.55 0)
+			(at 526.7695 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10440,7 +10386,7 @@
 			)
 		)
 	)
-	(global_label "Rotary-"
+	(global_label "CHANNEL_2"
 		(shape input)
 		(at 349.25 77.47 180)
 		(fields_autoplaced yes)
@@ -10452,7 +10398,7 @@
 		)
 		(uuid "893cfba9-a901-4cb6-b2fa-a2dd45742c22")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 338.6449 77.47 0)
+			(at 335.5605 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10506,7 +10452,7 @@
 			)
 		)
 	)
-	(global_label "Rotary+"
+	(global_label "CHANNEL_1"
 		(shape input)
 		(at 513.08 77.47 0)
 		(fields_autoplaced yes)
@@ -10518,7 +10464,7 @@
 		)
 		(uuid "9ca43432-db24-463b-9f45-ba2483066dba")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 523.6851 77.47 0)
+			(at 526.7695 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10634,28 +10580,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Rotary_Ground"
-		(shape input)
-		(at 349.25 74.93 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "baf9f105-324e-412a-86ad-299fd2dad9fc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 332.5975 74.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -10915,6 +10839,28 @@
 		(uuid "faf2d7e3-27bc-4721-aa5e-378fa0510d90")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 184.0677 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SAI2_MCLK_B"
+		(shape input)
+		(at 95.25 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fd7a9e4e-3338-43bd-9fcc-8e20308e6ac9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.9277 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13608,6 +13554,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 349.25 74.93 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "964c7c3e-fac7-4d2f-9ea6-09adea20f56b")
+		(property "Reference" "#PWR023"
+			(at 342.9 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 345.44 74.9299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 349.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 349.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 349.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e7870593-bba8-4555-a456-ef688ac96a2f")
+		)
+		(instances
+			(project "Power_Supplies_DSP"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe"
+					(reference "#PWR023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 386.08 269.24 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14108,72 +14121,6 @@
 			(project "Power_Supplies_DSP"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe"
 					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 488.95 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b2df8757-49f3-4a6e-9c3d-b757ab15523e")
-		(property "Reference" "#PWR023"
-			(at 488.95 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 488.95 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 488.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 488.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 488.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "86c0d653-f0a6-412b-8e4a-52b6d1352b1c")
-		)
-		(instances
-			(project "Power_Supplies_DSP"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe"
-					(reference "#PWR023")
 					(unit 1)
 				)
 			)
