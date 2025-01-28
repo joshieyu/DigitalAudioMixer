@@ -9610,7 +9610,7 @@
 		)
 		(uuid "6350f95f-2be4-48f6-864d-7f2da3b9c9c1")
 	)
-	(text "I2C3 (from MCU) pins for Raspberry Pi"
+	(text "I2C3 (from MCU) pins for Raspberry Pi\nI2C3_SDA went to PC9 instead of PA9"
 		(exclude_from_sim no)
 		(at 66.294 257.81 0)
 		(effects
@@ -10726,6 +10726,28 @@
 			)
 		)
 	)
+	(global_label "I2C3_SDA"
+		(shape input)
+		(at 158.75 259.08 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c6a6c60b-44f9-4333-ad68-3cdbd6854ad9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 170.5647 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C3_SCL"
 		(shape input)
 		(at 97.79 256.54 180)
@@ -10810,28 +10832,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "I2C3_SDA"
-		(shape input)
-		(at 97.79 259.08 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d99a4300-eae8-4258-987a-95e9b4ab00c4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 85.9753 259.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
