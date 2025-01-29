@@ -7463,6 +7463,12 @@
 		(uuid "ead026ef-c368-4288-b4a6-c13965fb154e")
 	)
 	(junction
+		(at 537.21 276.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ee155ab0-9250-4b82-aff5-75c048b4d24e")
+	)
+	(junction
 		(at 438.15 302.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8266,6 +8272,16 @@
 	)
 	(wire
 		(pts
+			(xy 537.21 276.86) (xy 537.21 279.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "662d74ee-2ffe-42a1-9ce6-c5791e6e9248")
+	)
+	(wire
+		(pts
 			(xy 199.39 271.78) (xy 199.39 284.48)
 		)
 		(stroke
@@ -8313,6 +8329,16 @@
 			(type default)
 		)
 		(uuid "69aa1ca7-f493-42b9-be48-a8a619ea7f7f")
+	)
+	(wire
+		(pts
+			(xy 537.21 276.86) (xy 547.37 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e2f11b2-2365-48cd-a651-ff88819deebc")
 	)
 	(wire
 		(pts
@@ -8786,7 +8812,7 @@
 	)
 	(wire
 		(pts
-			(xy 537.21 269.24) (xy 537.21 279.4)
+			(xy 537.21 269.24) (xy 537.21 276.86)
 		)
 		(stroke
 			(width 0)
@@ -12119,72 +12145,6 @@
 			(project "Power_Supplies_DSP"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe"
 					(reference "#PWR020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 547.37 276.86 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "393bd598-3266-49f5-a918-617b66c29c70")
-		(property "Reference" "#PWR06"
-			(at 547.37 283.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 547.37 281.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 547.37 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 547.37 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 547.37 276.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b76f319c-b100-45cf-87c0-70df573d190f")
-		)
-		(instances
-			(project "Power_Supplies_DSP"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe"
-					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -17431,72 +17391,6 @@
 			(project "Power_Supplies_DSP"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe"
 					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 275.59 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f53d682e-6384-4d35-8f2e-a052ba85d060")
-		(property "Reference" "#PWR022"
-			(at 275.59 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "AGND"
-			(at 275.59 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 275.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 275.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 275.59 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9ca5f994-f437-4e05-b8d8-330de38d1d38")
-		)
-		(instances
-			(project "Power_Supplies_DSP"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe"
-					(reference "#PWR022")
 					(unit 1)
 				)
 			)
