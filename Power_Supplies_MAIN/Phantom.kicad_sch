@@ -2503,28 +2503,6 @@
 			)
 		)
 	)
-	(global_label "3.3V"
-		(shape output)
-		(at 85.09 116.84 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "98fc412d-47fc-4601-be0c-34e224db9dfc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 92.1876 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "BCLK_ADC"
 		(shape input)
 		(at 52.07 121.92 180)
