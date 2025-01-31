@@ -1,0 +1,18 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"J7";"SHDR20W64P254_2X10_2794X910X880P";1;"SBH11-PBPC-D10-ST-BK";;;
+2;"R15,R14,R7,R6,R11,R8,R10,R13,R9";"R_0805_2012Metric";9;"10k";;;
+3;"C16,C5,C11,C10,C9,C13,C4,C3,C21,C15,C8,C30,C29,C12,C22,C7,C6";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";17;"100nF";;;
+4;"X3";"L_6.3x6.3_H3";1;"NX3215SA-32.768K";;;
+5;"C28,C27";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"0.01uF";;;
+6;"C18,C19";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"2.2uF";;;
+7;"R5";"R_0805_2012Metric";1;"47";;;
+8;"U2";"QFP50P2200X2200X160-144N";1;"STM32H755ZIT6";;;
+9;"C26,C25";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"10pF";;;
+10;"X4";"FA-238_EPS";1;"NX2016SA-32MHZ";;;
+11;"C20";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"1uF";;;
+12;"C14";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"4.7 uF";;;
+13;"J6";"PinSocket_1x10_P2.54mm_Vertical";1;"PINHD_1x10_Female";;;
+14;"C24,C23";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";2;"12pF";;;
+15;"C17";"C_0603_1608Metric_Pad1.08x0.95mm_HandSolder";1;"4.7uF";;;
+16;"J5";"PinSocket_1x02_P2.54mm_Vertical";1;"PINHD_1x2_Female";;;
+17;"J4,J1";"PinHeader_1x10_P2.54mm_Vertical";2;"PINHD_1x10_Male";;;

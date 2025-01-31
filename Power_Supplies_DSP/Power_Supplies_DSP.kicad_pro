@@ -138,7 +138,7 @@
         "min_track_width": 0.2,
         "min_via_annular_width": 0.13,
         "min_via_diameter": 0.4,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -514,7 +514,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "pos_files": "",
+      "pos_files": "production/",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -705,10 +705,6 @@
     [
       "3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe",
       "STM32"
-    ],
-    [
-      "4ac374da-48c1-45fc-82eb-58af98bfd6f4",
-      "Xcore"
     ]
   ],
   "text_variables": {}

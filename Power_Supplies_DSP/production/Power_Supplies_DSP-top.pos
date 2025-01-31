@@ -1,0 +1,49 @@
+### Footprint positions - created on 2025-01-29T20:02:08-0500 ###
+### Printed by KiCad version 8.0.5
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val                Package                                           PosX       PosY       Rot  Side
+C3        100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   225.6500  -156.1250   90.0000  top
+C4        100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   218.8500  -166.5000  -90.0000  top
+C5        100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   213.0500  -164.8750    0.0000  top
+C6        100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   229.2750  -140.9000   90.0000  top
+C7        100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   206.1000  -164.2000    0.0000  top
+C8        100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   194.1000  -161.8750  -90.0000  top
+C9        100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   220.8250  -166.4500  -90.0000  top
+C10       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   201.3750  -136.7500   90.0000  top
+C11       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   199.3000  -136.7250   90.0000  top
+C12       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   190.4000  -145.5750  180.0000  top
+C13       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   190.3750  -147.6000  180.0000  top
+C14       4.7_uF             C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   192.2125  -149.4500  180.0000  top
+C15       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   227.2000  -140.9250   90.0000  top
+C16       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   197.8500  -152.6750  -90.0000  top
+C17       4.7uF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   233.8000  -151.5000  -90.0000  top
+C18       2.2uF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   231.3750  -143.1500   90.0000  top
+C19       2.2uF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   215.5250  -166.5250  180.0000  top
+C20       1uF                C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   228.7000  -151.8000  -90.0000  top
+C21       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   227.0000  -151.8000  -90.0000  top
+C22       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   190.1500  -158.5000  180.0000  top
+C23       12pF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   184.2000  -122.2000  180.0000  top
+C24       12pF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   198.2500  -122.2250    0.0000  top
+C25       10pF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   190.1250  -156.9250  180.0000  top
+C26       10pF               C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   192.4000  -151.3250  180.0000  top
+C27       0.01uF             C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   266.0000  -152.4725  180.0000  top
+C28       0.01uF             C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   259.0250  -152.4975  180.0000  top
+C29       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   215.1000  -136.9625   90.0000  top
+C30       100nF              C_0603_1608Metric_Pad1.08x0.95mm_HandSolder   212.5750  -135.2875   90.0000  top
+J5        PINHD_1x2_Female   PinSocket_1x02_P2.54mm_Vertical               264.3750  -148.9975  -90.0000  top
+J6        PINHD_1x10_Female  PinSocket_1x10_P2.54mm_Vertical               249.5000  -119.9050    0.0000  top
+R5        47                 R_0805_2012Metric                             197.5750  -162.4000  -90.0000  top
+R6        10k                R_0805_2012Metric                             204.4250  -135.9000   90.0000  top
+R7        10k                R_0805_2012Metric                             207.1500  -135.7500   90.0000  top
+R8        10k                R_0805_2012Metric                             264.5000  -139.9000  -90.0000  top
+R9        10k                R_0805_2012Metric                             264.4500  -144.3250  -90.0000  top
+R10       10k                R_0805_2012Metric                             261.8000  -139.8500  -90.0000  top
+R11       10k                R_0805_2012Metric                             261.8250  -144.3000  -90.0000  top
+R13       10k                R_0805_2012Metric                             163.2500  -128.7000   90.0000  top
+R14       10k                R_0805_2012Metric                             176.2500  -125.5500  180.0000  top
+R15       10k                R_0805_2012Metric                             176.2250  -123.2750  180.0000  top
+U2        STM32H755ZIT6      QFP50P2200X2200X160-144N                      211.3750  -151.2750    0.0000  top
+X3        NX3215SA-32.768K   L_6.3x6.3_H3                                  191.1000  -122.2500    0.0000  top
+X4        NX2016SA-32MHZ     FA-238_EPS                                    192.1730  -154.0607  -90.0000  top
+## End

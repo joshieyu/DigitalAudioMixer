@@ -74,44 +74,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 111.76 60.96)
-		(size 40.64 22.86)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4ac374da-48c1-45fc-82eb-58af98bfd6f4")
-		(property "Sheetname" "Xcore"
-			(at 111.76 60.2484 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "XCORE.kicad_sch"
-			(at 111.76 84.4046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Power_Supplies_DSP"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
-					(page "9")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")

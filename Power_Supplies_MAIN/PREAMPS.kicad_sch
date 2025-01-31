@@ -6591,6 +6591,16 @@
 		)
 		(uuid "06fce94a-b756-471f-9ffd-9eae00474c73")
 	)
+	(text "+"
+		(exclude_from_sim no)
+		(at 98.552 96.266 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0b08892f-9bcd-407d-8906-029b887a092d")
+	)
 	(text "Positive"
 		(exclude_from_sim no)
 		(at 312.928 196.85 0)
@@ -6836,6 +6846,16 @@
 			)
 		)
 		(uuid "812c2010-f6ed-4bc2-ab22-3a0e19e7a690")
+	)
+	(text "-"
+		(exclude_from_sim no)
+		(at 98.806 87.376 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "81f8a989-12cd-42a2-81aa-81755c7d7397")
 	)
 	(text "Negative\n"
 		(exclude_from_sim no)
