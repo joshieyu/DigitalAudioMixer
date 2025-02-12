@@ -1,0 +1,120 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5266cf9e-da90-4c53-80fd-cf3dbed42632")
+	(paper "A4")
+	(title_block
+		(title "Power Supplies")
+		(date "2024-09-01")
+		(rev "1")
+		(company "Michael Meyers")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 104.14 57.15)
+		(end 167.64 124.46)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c623997b-19c9-4575-a014-51edb71503b1)
+	)
+	(text "MCUs"
+		(exclude_from_sim no)
+		(at 137.16 53.34 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "1e855648-f302-4888-ab7f-861799f1b0ec")
+	)
+	(sheet
+		(at 114.3 99.06)
+		(size 38.1 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3fb43f8a-8ac2-41bd-9c44-03d9d8c3e7fe")
+		(property "Sheetname" "STM32"
+			(at 114.3 98.3484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "stm32.kicad_sch"
+			(at 114.3 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Supplies_DSP_USB"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 111.76 60.96)
+		(size 40.64 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "4ac374da-48c1-45fc-82eb-58af98bfd6f4")
+		(property "Sheetname" "Xcore"
+			(at 111.76 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "XCORE.kicad_sch"
+			(at 111.76 84.4046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Supplies_DSP_USB"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

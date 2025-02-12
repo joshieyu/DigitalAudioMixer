@@ -1,0 +1,129 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5266cf9e-da90-4c53-80fd-cf3dbed42632")
+	(paper "A4")
+	(title_block
+		(title "Power Supplies")
+		(date "2024-09-01")
+		(rev "1")
+		(company "Michael Meyers")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 115.57 57.15)
+		(end 204.47 95.25)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a431d4ea-3826-4044-b789-472f3edaaabf)
+	)
+	(text "Power Supplies"
+		(exclude_from_sim no)
+		(at 160.528 52.832 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "5299cf95-92d8-489f-af21-500a869777d7")
+	)
+	(sheet
+		(at 116.84 64.77)
+		(size 24.13 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "873b4819-32e6-40de-93d6-23cb6a01b934")
+		(property "Sheetname" "Phantom Power"
+			(at 116.84 64.0584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Phantom.kicad_sch"
+			(at 116.84 81.8646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 116.84 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Power_Supplies_Copy"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 165.1 74.93)
+		(size 26.67 5.08)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c32f96f-6431-432f-ba4b-d32b848998a9")
+		(property "Sheetname" "LDOs & IO"
+			(at 165.1 74.2184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "1.8V_PSU_sch.kicad_sch"
+			(at 165.1 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Power_Supplies_Copy"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
