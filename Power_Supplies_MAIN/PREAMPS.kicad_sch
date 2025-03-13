@@ -1503,6 +1503,171 @@
 				)
 			)
 		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Male"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PINHD_1x2_Male"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 1.27 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Pin Header"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "PinHeader_1x02_P2.54mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PINHD_1x2_Male_0_1"
+				(rectangle
+					(start -1.27 2.54)
+					(end 1.27 -2.54)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.3)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy 0 1.27)
+					)
+					(stroke
+						(width 0.5)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "PINHD_1x2_Male_1_1"
+				(pin passive line
+					(at -3.81 1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 -1.27 0)
+					(length 2.54)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "SDLibrary:SSM2019BRNZ"
 			(pin_names
 				(offset 0.254)
@@ -2295,6 +2460,12 @@
 		(uuid "61896a77-b9a3-4cd8-92cc-46efe5a94e92")
 	)
 	(junction
+		(at 497.84 228.6)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "642eecea-d973-4389-a3ef-eac12ed55b2a")
+	)
+	(junction
 		(at 195.58 363.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2589,6 +2760,12 @@
 		(uuid "ef413cb4-d1b7-4e80-8eb8-33160f4a980a")
 	)
 	(junction
+		(at 506.73 203.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f0a3b6d7-4347-430a-afbd-23f26d67ca01")
+	)
+	(junction
 		(at 335.28 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2808,7 +2985,7 @@
 	)
 	(wire
 		(pts
-			(xy 500.38 205.74) (xy 500.38 229.87)
+			(xy 497.84 205.74) (xy 497.84 228.6)
 		)
 		(stroke
 			(width 0)
@@ -3058,6 +3235,16 @@
 	)
 	(wire
 		(pts
+			(xy 497.84 228.6) (xy 497.84 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1cfaab7b-aeac-4162-b6d9-cbd991dc28ca")
+	)
+	(wire
+		(pts
 			(xy 347.98 73.66) (xy 347.98 76.2)
 		)
 		(stroke
@@ -3288,7 +3475,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 205.74) (xy 500.38 205.74)
+			(xy 495.3 205.74) (xy 497.84 205.74)
 		)
 		(stroke
 			(width 0)
@@ -3298,7 +3485,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 35.56) (xy 87.63 35.56)
+			(xy 76.2 35.56) (xy 96.52 35.56)
 		)
 		(stroke
 			(width 0)
@@ -3525,6 +3712,16 @@
 			(type default)
 		)
 		(uuid "38be7a6f-036b-4aa7-8797-666f76e5c37a")
+	)
+	(wire
+		(pts
+			(xy 497.84 228.6) (xy 500.38 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38d079fd-21fa-4be4-8ee6-e7b6cd6fad29")
 	)
 	(wire
 		(pts
@@ -4188,6 +4385,16 @@
 	)
 	(wire
 		(pts
+			(xy 506.73 203.2) (xy 506.73 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "631bb294-f7fa-45b4-8e18-57d729f9f03e")
+	)
+	(wire
+		(pts
 			(xy 335.28 207.01) (xy 344.17 207.01)
 		)
 		(stroke
@@ -4305,6 +4512,16 @@
 			(type default)
 		)
 		(uuid "6af16211-f91b-4a8c-858a-a8bfb70e0a54")
+	)
+	(wire
+		(pts
+			(xy 506.73 217.17) (xy 505.46 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e21568f-84dc-4a7d-b820-9824b7cfd3c9")
 	)
 	(wire
 		(pts
@@ -4528,7 +4745,7 @@
 	)
 	(wire
 		(pts
-			(xy 508 203.2) (xy 508 212.09)
+			(xy 513.08 203.2) (xy 513.08 212.09)
 		)
 		(stroke
 			(width 0)
@@ -4708,16 +4925,6 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 35.56) (xy 360.68 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "878e46fa-46e9-4cac-975b-ae9062eac0fd")
-	)
-	(wire
-		(pts
 			(xy 416.56 194.31) (xy 416.56 203.2)
 		)
 		(stroke
@@ -4808,7 +5015,7 @@
 	)
 	(wire
 		(pts
-			(xy 339.09 35.56) (xy 349.25 35.56)
+			(xy 339.09 35.56) (xy 360.68 35.56)
 		)
 		(stroke
 			(width 0)
@@ -4945,6 +5152,16 @@
 			(type default)
 		)
 		(uuid "99492a0f-4944-4a0b-83dc-502779c184fd")
+	)
+	(wire
+		(pts
+			(xy 505.46 217.17) (xy 505.46 220.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "995359c8-6e72-4832-a1aa-de1a857722c3")
 	)
 	(wire
 		(pts
@@ -5448,7 +5665,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 168.91) (xy 83.82 168.91)
+			(xy 74.93 168.91) (xy 96.52 168.91)
 		)
 		(stroke
 			(width 0)
@@ -5538,6 +5755,16 @@
 	)
 	(wire
 		(pts
+			(xy 500.38 228.6) (xy 500.38 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c1cacd91-a3a7-4aa1-8389-a67e48a179dc")
+	)
+	(wire
+		(pts
 			(xy 158.75 205.74) (xy 158.75 208.28)
 		)
 		(stroke
@@ -5565,6 +5792,16 @@
 			(type default)
 		)
 		(uuid "c2f4c11b-de96-4a9d-ab68-c613a31eb541")
+	)
+	(wire
+		(pts
+			(xy 500.38 223.52) (xy 505.46 223.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c3cd2a61-c470-40f2-8011-9a2f7a98b180")
 	)
 	(wire
 		(pts
@@ -5625,16 +5862,6 @@
 			(type default)
 		)
 		(uuid "c63dc083-4d24-447f-b93d-32df7c0799e1")
-	)
-	(wire
-		(pts
-			(xy 86.36 168.91) (xy 96.52 168.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6e1f4e5-4032-4975-9517-129adf86f99d")
 	)
 	(wire
 		(pts
@@ -6118,7 +6345,7 @@
 	)
 	(wire
 		(pts
-			(xy 495.3 203.2) (xy 508 203.2)
+			(xy 495.3 203.2) (xy 506.73 203.2)
 		)
 		(stroke
 			(width 0)
@@ -6225,16 +6452,6 @@
 			(type default)
 		)
 		(uuid "f12b6452-0c02-4d07-8a7b-21a339a61a2a")
-	)
-	(wire
-		(pts
-			(xy 90.17 35.56) (xy 96.52 35.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1cb55c9-ea5c-45ac-ac83-866eb403ffde")
 	)
 	(wire
 		(pts
@@ -6435,6 +6652,16 @@
 			(type default)
 		)
 		(uuid "fbd810f4-6f2e-4003-b803-325348d7eb37")
+	)
+	(wire
+		(pts
+			(xy 506.73 203.2) (xy 513.08 203.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc24e802-b50d-444b-9709-2bc249046d1d")
 	)
 	(wire
 		(pts
@@ -7170,7 +7397,7 @@
 	)
 	(global_label "AIN_4"
 		(shape input)
-		(at 508 212.09 0)
+		(at 513.08 212.09 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7180,7 +7407,7 @@
 		)
 		(uuid "0d3f450f-ca8c-40ce-89b0-ee738c226d8d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 516.1862 212.09 0)
+			(at 521.2662 212.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9295,7 +9522,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
 			(at 36.83 116.84 0)
 			(effects
 				(font
@@ -9692,76 +9919,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Female")
-		(at 88.9 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "212ad1e8-04b8-44da-b044-f1c4ff05473a")
-		(property "Reference" "J30"
-			(at 92.71 38.3549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x2_Female"
-			(at 92.71 40.8949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 99.06 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
-			(at 88.9 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d326cabe-e1a4-46d7-9a00-6f5a1da68a53")
-		)
-		(pin "2"
-			(uuid "59c75c71-246a-4e3f-ac8f-5d3f9f101626")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
-					(reference "J30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 88.9 234.95 0)
 		(unit 1)
@@ -9998,7 +10155,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
 			(at 36.83 250.19 0)
 			(effects
 				(font
@@ -14374,7 +14531,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
 			(at 300.99 116.84 0)
 			(effects
 				(font
@@ -15458,7 +15615,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 500.38 229.87 0)
+		(at 497.84 231.14 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15467,7 +15624,7 @@
 		(fields_autoplaced yes)
 		(uuid "82cb80c6-2068-47a0-9c2a-33b49f2e403b")
 		(property "Reference" "#PWR011"
-			(at 500.38 236.22 0)
+			(at 497.84 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15476,7 +15633,7 @@
 			)
 		)
 		(property "Value" "AGND"
-			(at 500.38 234.95 0)
+			(at 497.84 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15484,7 +15641,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 500.38 229.87 0)
+			(at 497.84 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15493,7 +15650,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 500.38 229.87 0)
+			(at 497.84 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15502,7 +15659,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 500.38 229.87 0)
+			(at 497.84 231.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15548,7 +15705,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
 			(at 300.99 198.12 0)
 			(effects
 				(font
@@ -15977,7 +16134,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
 			(at 300.99 250.19 0)
 			(effects
 				(font
@@ -16893,7 +17050,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
 			(at 36.83 198.12 0)
 			(effects
 				(font
@@ -16942,76 +17099,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
 					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Female")
-		(at 85.09 172.72 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9ae14b7c-881f-493c-adb2-a138f989b744")
-		(property "Reference" "J29"
-			(at 88.9 171.7049 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x2_Female"
-			(at 88.9 174.2449 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 95.25 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 92.71 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
-			(at 85.09 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "23292138-8ab0-466f-a553-3e6704a54020")
-		)
-		(pin "2"
-			(uuid "7b2a1a71-80f0-459b-843b-9ccf0e08d930")
-		)
-		(instances
-			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
-					(reference "J29")
 					(unit 1)
 				)
 			)
@@ -19376,6 +19463,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 509.27 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5607a44-bae4-4dae-9a82-e229933b6889")
+		(property "Reference" "J18"
+			(at 511.81 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Male"
+			(at 511.81 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 510.54 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 509.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 509.27 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fee9c116-4770-4b00-a63d-384b907671be")
+		)
+		(pin "2"
+			(uuid "6ccab32d-98af-4ea3-9ad2-0314e43bc390")
+		)
+		(instances
+			(project ""
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
+					(reference "J18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 195.58 383.54 0)
 		(unit 1)
@@ -19754,7 +19911,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
 			(at 36.83 64.77 0)
 			(effects
 				(font
@@ -20530,7 +20687,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-H_Horizontal"
+		(property "Footprint" "Connector_Audio:Jack_XLR-6.35mm_Neutrik_NCJ6FA-V_Vertical"
 			(at 300.99 64.77 0)
 			(effects
 				(font
@@ -21641,76 +21798,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
 					(reference "#PWR078")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Female")
-		(at 350.52 39.37 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ec769bb4-36c0-4288-b58e-47b6efc1c9f3")
-		(property "Reference" "J31"
-			(at 354.33 38.3549 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x2_Female"
-			(at 354.33 40.8949 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 360.68 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 358.14 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
-			(at 350.52 39.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "87935515-aa3b-4023-ab42-bcac2de02da0")
-		)
-		(pin "2"
-			(uuid "db2e9e5d-f829-4ac6-89d7-ae10bd31257e")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
-					(reference "J31")
 					(unit 1)
 				)
 			)

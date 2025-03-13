@@ -279,7 +279,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R15"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "1d67547d-d454-4077-8d94-fa2c27536350")
 			(effects
@@ -290,7 +290,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "a579a7aa-ed69-4461-868e-acaaf6fa7a32")
 			(effects
@@ -458,7 +458,7 @@
 			(uuid "b0b9191e-d58c-4f77-b8c3-ce9e1618791c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "4e5e5f81-14d1-46bc-8a83-65b211c91666")
 			(effects
@@ -731,7 +731,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor")
 		(property "Reference" "R14"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "F.SilkS")
 			(uuid "4a16cedb-a283-46e7-9865-368bf0039dd2")
 			(effects
@@ -742,7 +742,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 0 1.65 360)
+			(at 0 1.65 0)
 			(layer "F.Fab")
 			(uuid "68ff9543-0fe2-4dc4-9ce8-03f9b234226d")
 			(effects
@@ -910,7 +910,7 @@
 			(uuid "fdf27292-f298-4788-9644-312134a44c7e")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5f397ea4-6341-4df0-8e01-f99d69ead01b")
 			(effects
@@ -8827,7 +8827,7 @@
 		(descr "NX2016SA-32MHZ-EXS00A-CS06654-4")
 		(tags "Crystal or Oscillator")
 		(property "Reference" "X4"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(uuid "d4a37eed-a525-4e33-929c-46ee54ca1597")
 			(effects
@@ -8838,7 +8838,7 @@
 			)
 		)
 		(property "Value" "NX2016SA-32MHZ"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "1e57af1a-e3b7-4cbc-9821-0bf42ce2f0d8")
@@ -8850,7 +8850,7 @@
 			)
 		)
 		(property "Footprint" "SamacSys_Parts:NX2016SA32MHZEXS00ACS06654"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "494846a8-922d-4311-bf1c-1aad024697b1")
@@ -8862,7 +8862,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2f0c424a-74f2-4f3c-b60f-b0d6ffe546c7")
@@ -8874,7 +8874,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "1143b225-68c9-44db-a7dd-089126340297")
@@ -15789,7 +15789,7 @@
 		(width 0.2)
 		(layer "F.Cu")
 		(net 110)
-		(uuid "a17e17c7-d20c-4d07-98a7-712f2e41970b")
+		(uuid "6d0434a1-1eb1-453a-92a0-893e684f9921")
 	)
 	(segment
 		(start 151.175 154.47)

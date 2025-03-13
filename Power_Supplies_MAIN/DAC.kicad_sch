@@ -872,27 +872,397 @@
 				)
 			)
 		)
+		(symbol "AudioJack3_1"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at -7.62 0.6351 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Line Out (Left)"
+				(at -7.62 -1.9049 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:ACJSNV353"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_1_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_1_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "AudioJack3_2"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J21"
+				(at -7.62 0.6351 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "Line Out (Right)"
+				(at -7.62 -1.9049 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "SamacSys_Parts:ACJSNV353"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Audio Jack, 3 Poles (Stereo / TRS)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "audio jack receptacle stereo headphones phones TRS connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Jack*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "AudioJack3_2_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end -6.35 -2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -2.54) (xy 0.635 -3.175) (xy 1.27 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.905 -2.54) (xy -1.27 -3.175) (xy -0.635 -2.54) (xy -0.635 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy -2.54 2.54) (xy -2.54 -2.54) (xy -3.175 -3.175) (xy -3.81 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 2.54 3.81)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "AudioJack3_2_1_1"
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector_Audio:AudioJack3"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J"
-				(at 0 8.89 0)
+			(property "Reference" "J2"
+				(at -7.62 0.6351 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Value" "AudioJack3"
-				(at 0 6.35 0)
+			(property "Value" "Headphone Out"
+				(at -7.62 -1.9049 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify right)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "SamacSys_Parts:ACJSNV353"
 				(at 0 0 0)
 				(effects
 					(font
@@ -999,34 +1369,16 @@
 			)
 			(symbol "AudioJack3_1_1"
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "R"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 5.08 2.54 180)
 					(length 2.54)
-					(name "~"
+					(name "1"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "S"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1037,14 +1389,32 @@
 				(pin passive line
 					(at 5.08 -2.54 180)
 					(length 2.54)
-					(name "~"
+					(name "3"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "T"
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1702,28 +2072,254 @@
 				)
 			)
 		)
-		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Female"
+		(symbol "PCM_SL_Devices:LED"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at -0.508 5.334 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LED"
+				(at -0.508 2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "LED_THT:LED_D5.0mm"
+				(at -1.016 -2.794 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Common 5mm diameter LED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "LED 5mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED_D5.0mm_Clear LED_D5.0mm_Horizontal_O1.27mm_Z3.0mm LED_D5.0mm_Horizontal_O3.81mm_Z3.0mm LED_D5.0mm_Horizontal_O6.35mm_Z3.0mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LED_0_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 0.508) (xy 1.524 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 2.54 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 0.508) (xy 2.54 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 0.889 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.524 1.524) (xy 1.524 0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 1.905 1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.524) (xy 2.54 0.889)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy -1.27 -1.27) (xy -1.27 1.27) (xy 0 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+			)
+			(symbol "LED_1_1"
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.5)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -3.81 0 0)
+					(length 1.5)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Male"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 7.62 0)
+				(at 0 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PINHD_1x2_Female"
-				(at 0 5.08 0)
+			(property "Value" "PINHD_1x2_Male"
+				(at 0 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-				(at 2.54 10.16 0)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+				(at 1.27 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1740,7 +2336,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1758,7 +2354,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PinSocket_1x02_P2.54mm*"
+			(property "ki_fp_filters" "PinHeader_1x02_P2.54mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1767,10 +2363,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PINHD_1x2_Female_0_1"
+			(symbol "PINHD_1x2_Male_0_1"
 				(rectangle
 					(start -1.27 2.54)
-					(end 1.905 -2.54)
+					(end 1.27 -2.54)
 					(stroke
 						(width 0)
 						(type default)
@@ -1779,36 +2375,12 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -0.508 -1.27)
-					(mid -0.3592 -1.6292)
-					(end 0 -1.778)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy 0 -1.27)
+					)
 					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 1.27)
-					(mid -0.3592 0.9108)
-					(end 0 0.762)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -0.762)
-					(mid -0.3592 -0.9108)
-					(end -0.508 -1.27)
-					(stroke
-						(width 0.25)
+						(width 0.3)
 						(type default)
 					)
 					(fill
@@ -1817,10 +2389,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -1.27) (xy -0.508 -1.27)
+						(xy -1.27 -1.27) (xy 0 -1.27)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.5)
 						(type default)
 					)
 					(fill
@@ -1829,10 +2401,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 1.27) (xy -0.508 1.27)
+						(xy -1.27 1.27) (xy 0 1.27)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.3)
 						(type default)
 					)
 					(fill
@@ -1841,58 +2413,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -1.778) (xy 1.016 -1.778)
+						(xy -1.27 1.27) (xy 0 1.27)
 					)
 					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -0.762)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.762)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.778) (xy 1.016 1.778)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.778)
-					(mid -0.3592 1.6292)
-					(end -0.508 1.27)
-					(stroke
-						(width 0.25)
+						(width 0.5)
 						(type default)
 					)
 					(fill
@@ -1900,7 +2424,7 @@
 					)
 				)
 			)
-			(symbol "PINHD_1x2_Female_1_1"
+			(symbol "PINHD_1x2_Male_1_1"
 				(pin passive line
 					(at -3.81 1.27 0)
 					(length 2.54)
@@ -1939,28 +2463,28 @@
 				)
 			)
 		)
-		(symbol "PCM_SL_Pin_Headers:PINHD_1x3_Female"
+		(symbol "PCM_SL_Pin_Headers:PINHD_1x3_Male"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 0 8.89 0)
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "PINHD_1x3_Female"
-				(at 0 6.35 0)
+			(property "Value" "PINHD_1x3_Male"
+				(at 0 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-				(at 2.54 11.43 0)
+			(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+				(at 1.27 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1977,7 +2501,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -3"
+			(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -3"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1995,7 +2519,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "PinSocket_1x03_P2.54mm*"
+			(property "ki_fp_filters" "PinHeader_1x03_P2.54mm*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2004,10 +2528,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "PINHD_1x3_Female_0_1"
+			(symbol "PINHD_1x3_Male_0_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.905 -3.81)
+					(end 1.27 -3.81)
 					(stroke
 						(width 0)
 						(type default)
@@ -2016,48 +2540,12 @@
 						(type background)
 					)
 				)
-				(arc
-					(start -0.508 -2.54)
-					(mid -0.3592 -2.8992)
-					(end 0 -3.048)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy 0 -2.54)
+					)
 					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 0)
-					(mid -0.3592 -0.3592)
-					(end 0 -0.508)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.508 2.54)
-					(mid -0.3592 2.1808)
-					(end 0 2.032)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -2.032)
-					(mid -0.3592 -2.1808)
-					(end -0.508 -2.54)
-					(stroke
-						(width 0.25)
+						(width 0.3)
 						(type default)
 					)
 					(fill
@@ -2066,10 +2554,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 -2.54) (xy -0.508 -2.54)
+						(xy -1.27 -2.54) (xy 0 -2.54)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.5)
 						(type default)
 					)
 					(fill
@@ -2078,10 +2566,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 0) (xy -0.508 0)
+						(xy -1.27 0) (xy 0 0)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.3)
 						(type default)
 					)
 					(fill
@@ -2090,10 +2578,10 @@
 				)
 				(polyline
 					(pts
-						(xy -1.27 2.54) (xy -0.508 2.54)
+						(xy -1.27 0) (xy 0 0)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.5)
 						(type default)
 					)
 					(fill
@@ -2102,10 +2590,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -3.048) (xy 1.016 -3.048)
+						(xy -1.27 2.54) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.25)
+						(width 0.3)
 						(type default)
 					)
 					(fill
@@ -2114,82 +2602,10 @@
 				)
 				(polyline
 					(pts
-						(xy 0 -2.032) (xy 1.016 -2.032)
+						(xy -1.27 2.54) (xy 0 2.54)
 					)
 					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 1.016 -0.508)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.032) (xy 1.016 2.032)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.048) (xy 1.016 3.048)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.3592 0.3592)
-					(end -0.508 0)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 3.048)
-					(mid -0.3592 2.8992)
-					(end -0.508 2.54)
-					(stroke
-						(width 0.25)
+						(width 0.5)
 						(type default)
 					)
 					(fill
@@ -2197,7 +2613,7 @@
 					)
 				)
 			)
-			(symbol "PINHD_1x3_Female_1_1"
+			(symbol "PINHD_1x3_Male_1_1"
 				(pin passive line
 					(at -3.81 2.54 0)
 					(length 2.54)
@@ -2358,12 +2774,6 @@
 		(uuid "034450cc-ffe6-43ca-84a9-5d2dfa581f28")
 	)
 	(junction
-		(at 242.57 53.34)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "04bc9f49-f2b2-4b65-ad46-3d02c7168492")
-	)
-	(junction
 		(at 45.72 116.84)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2400,10 +2810,10 @@
 		(uuid "3703567a-0890-4c5a-b905-f2aa9aa2145f")
 	)
 	(junction
-		(at 45.72 156.21)
+		(at 243.84 53.34)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3e5059bc-84ec-4843-9624-32d8fe742030")
+		(uuid "3dec200e-410a-40fe-b05b-bee2c4e9f531")
 	)
 	(junction
 		(at 157.48 49.53)
@@ -2412,10 +2822,10 @@
 		(uuid "3ecc71ae-ddcb-4cc7-87c9-a40b8192b0fb")
 	)
 	(junction
-		(at 45.72 125.73)
+		(at 231.14 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3ffbd1c0-3033-4a59-b34d-0ffd1b09cd4e")
+		(uuid "5138b20d-7f99-4f9b-896c-5d88a33f2d62")
 	)
 	(junction
 		(at 59.69 71.12)
@@ -2639,16 +3049,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 125.73) (xy 45.72 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "032587c0-480e-4d6b-b451-bef8cd9af891")
-	)
-	(wire
-		(pts
 			(xy 219.71 39.37) (xy 245.11 39.37)
 		)
 		(stroke
@@ -2749,6 +3149,26 @@
 	)
 	(wire
 		(pts
+			(xy 219.71 27.94) (xy 219.71 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0dae5276-a5a7-490b-a6ec-f781fd9358c3")
+	)
+	(wire
+		(pts
+			(xy 209.55 36.83) (xy 209.55 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0eafe942-8ff4-4723-b13f-e374f03c88b7")
+	)
+	(wire
+		(pts
 			(xy 118.11 142.24) (xy 121.92 142.24)
 		)
 		(stroke
@@ -2759,7 +3179,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 125.73) (xy 53.34 125.73)
+			(xy 39.37 125.73) (xy 53.34 125.73)
 		)
 		(stroke
 			(width 0)
@@ -2876,6 +3296,16 @@
 			(type default)
 		)
 		(uuid "22b94106-1058-409c-ab8f-02ae6085cfaa")
+	)
+	(wire
+		(pts
+			(xy 38.1 25.4) (xy 38.1 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "25c044d3-0808-4fe5-93f0-3086f86adfad")
 	)
 	(wire
 		(pts
@@ -3009,6 +3439,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 50.8) (xy 39.37 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39f83044-2a39-41ee-8bc4-b0f18eb7b90e")
+	)
+	(wire
+		(pts
 			(xy 261.62 46.99) (xy 245.11 46.99)
 		)
 		(stroke
@@ -3106,6 +3546,16 @@
 			(type default)
 		)
 		(uuid "44d65437-b924-40f9-85d8-ed046a310773")
+	)
+	(wire
+		(pts
+			(xy 33.02 45.72) (xy 39.37 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45c75300-7dcd-4a34-8b0c-6e5ead04a2e8")
 	)
 	(wire
 		(pts
@@ -3409,7 +3859,7 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 156.21) (xy 54.61 156.21)
+			(xy 39.37 156.21) (xy 54.61 156.21)
 		)
 		(stroke
 			(width 0)
@@ -3559,6 +4009,16 @@
 	)
 	(wire
 		(pts
+			(xy 193.04 36.83) (xy 209.55 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8af1fc78-3efb-48cf-86b2-c5ae8f2c4692")
+	)
+	(wire
+		(pts
 			(xy 66.04 111.76) (xy 68.58 111.76)
 		)
 		(stroke
@@ -3566,6 +4026,16 @@
 			(type default)
 		)
 		(uuid "8b3719f5-0102-4a69-a939-5c5c5b0f9540")
+	)
+	(wire
+		(pts
+			(xy 53.34 31.75) (xy 59.69 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0dfdc1-90bd-4c17-b1b8-788afdec6c0d")
 	)
 	(wire
 		(pts
@@ -3629,7 +4099,17 @@
 	)
 	(wire
 		(pts
-			(xy 247.65 53.34) (xy 242.57 53.34)
+			(xy 231.14 34.29) (xy 231.14 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "950c53d8-1081-40ce-a7c6-79cf7a80d7d6")
+	)
+	(wire
+		(pts
+			(xy 247.65 53.34) (xy 243.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3729,7 +4209,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 31.75) (xy 231.14 38.1)
+			(xy 231.14 31.75) (xy 231.14 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3766,6 +4246,16 @@
 			(type default)
 		)
 		(uuid "b1a7f122-7754-4b10-afbc-2e9b9a518ab6")
+	)
+	(wire
+		(pts
+			(xy 219.71 34.29) (xy 231.14 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b40fc653-3687-47a9-adcc-964f88b3dc9a")
 	)
 	(wire
 		(pts
@@ -3869,7 +4359,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 53.34) (xy 241.3 53.34)
+			(xy 241.3 53.34) (xy 243.84 53.34)
 		)
 		(stroke
 			(width 0)
@@ -3879,7 +4369,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 68.58) (xy 242.57 71.12)
+			(xy 243.84 68.58) (xy 243.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -3946,6 +4436,16 @@
 			(type default)
 		)
 		(uuid "c80d15f5-91f8-435f-b5e5-4845e0c0336c")
+	)
+	(wire
+		(pts
+			(xy 212.09 27.94) (xy 209.55 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd2039b8-d1e6-416d-b561-1b4de6cf0982")
 	)
 	(wire
 		(pts
@@ -4039,7 +4539,7 @@
 	)
 	(wire
 		(pts
-			(xy 242.57 53.34) (xy 242.57 60.96)
+			(xy 243.84 53.34) (xy 243.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -4059,6 +4559,16 @@
 	)
 	(wire
 		(pts
+			(xy 33.02 48.26) (xy 39.37 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da13f34a-8438-4aed-b544-da9dd96b8174")
+	)
+	(wire
+		(pts
 			(xy 138.43 46.99) (xy 140.97 46.99)
 		)
 		(stroke
@@ -4066,6 +4576,16 @@
 			(type default)
 		)
 		(uuid "da1c8120-b5d7-4e26-893a-b9981a6f2075")
+	)
+	(wire
+		(pts
+			(xy 40.64 25.4) (xy 38.1 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dd9e4931-6f96-4662-8b81-eee89385e44a")
 	)
 	(wire
 		(pts
@@ -4139,6 +4659,16 @@
 	)
 	(wire
 		(pts
+			(xy 48.26 25.4) (xy 53.34 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eeb2fcb7-0885-4328-b316-0141b24a9168")
+	)
+	(wire
+		(pts
 			(xy 140.97 118.11) (xy 143.51 118.11)
 		)
 		(stroke
@@ -4149,7 +4679,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 71.12) (xy 242.57 71.12)
+			(xy 219.71 71.12) (xy 243.84 71.12)
 		)
 		(stroke
 			(width 0)
@@ -4209,16 +4739,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 156.21) (xy 45.72 156.21)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f704c6b4-48dd-4c97-b660-a6a8981e6200")
-	)
-	(wire
-		(pts
 			(xy 231.14 66.04) (xy 231.14 67.31)
 		)
 		(stroke
@@ -4256,6 +4776,26 @@
 			(type default)
 		)
 		(uuid "fcf6c0e5-9b5f-4467-85e6-93194a3bf9a1")
+	)
+	(wire
+		(pts
+			(xy 53.34 25.4) (xy 53.34 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd2b2c79-f99b-4944-b914-7f5e2a8385ad")
+	)
+	(wire
+		(pts
+			(xy 33.02 43.18) (xy 39.37 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fde817af-abfc-4893-b9ea-8d3ad74b6ec4")
 	)
 	(wire
 		(pts
@@ -4766,7 +5306,7 @@
 	)
 	(global_label "DATA"
 		(shape input)
-		(at 39.37 50.8 180)
+		(at 33.02 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4777,7 +5317,7 @@
 		)
 		(uuid "8017673a-add7-481c-8588-b0d5a2c1f258")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 31.494 50.8 0)
+			(at 25.144 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4789,7 +5329,7 @@
 	)
 	(global_label "BCLK_DAC"
 		(shape input)
-		(at 39.37 43.18 180)
+		(at 33.02 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4800,7 +5340,7 @@
 		)
 		(uuid "8446fd57-b926-49bc-bc45-b5033f5e042a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.4745 43.18 0)
+			(at 20.1245 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4879,7 +5419,7 @@
 	)
 	(global_label "LRCK_DAC"
 		(shape input)
-		(at 39.37 48.26 180)
+		(at 33.02 48.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4890,7 +5430,7 @@
 		)
 		(uuid "924ff541-db62-4c7b-ba99-30f0a27b4dc8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 26.4745 48.26 0)
+			(at 20.1245 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4991,7 +5531,7 @@
 	)
 	(global_label "MCLK"
 		(shape input)
-		(at 39.37 45.72 180)
+		(at 33.02 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5002,7 +5542,7 @@
 		)
 		(uuid "b92652cd-df37-4da6-b993-f76e9749438a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 30.8893 45.72 0)
+			(at 24.5393 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5251,76 +5791,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
 					(reference "R170")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 45.72 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "022da14c-1b58-4929-aadd-a3364c0cb91c")
-		(property "Reference" "C31"
-			(at 49.53 120.6499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1200pF"
-			(at 49.53 123.1899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 46.6852 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 45.72 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "89b3de40-a8ab-4986-ba9a-bf85d38e9a92")
-		)
-		(pin "2"
-			(uuid "f59ee944-3710-4082-8f21-7b2f10dfd107")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -5712,7 +6182,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+		(property "Footprint" "SamacSys_Parts:ACJSNV353"
 			(at 232.41 115.57 0)
 			(effects
 				(font
@@ -5739,13 +6209,13 @@
 				(hide yes)
 			)
 		)
-		(pin "R"
+		(pin "1"
 			(uuid "495c7519-f40e-40c7-84af-a1ba2a84b98c")
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "1c5380e8-6b75-44d7-aa04-1d2288d5f6f5")
 		)
-		(pin "S"
+		(pin "4"
 			(uuid "75fe8610-5290-40a9-9323-b87af8aeef81")
 		)
 		(instances
@@ -5886,73 +6356,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
 					(reference "R24")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 62.23 106.68 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "2b494ba2-7f08-48c5-8dbd-68a6e170b1a8")
-		(property "Reference" "C33"
-			(at 62.23 103.886 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "120pF"
-			(at 68.072 104.902 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 66.04 105.7148 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "590e5605-7fee-4912-ad8a-36e089621a09")
-		)
-		(pin "2"
-			(uuid "d4aa97e2-a446-489b-b5bc-29819bc3c8a6")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "C33")
 					(unit 1)
 				)
 			)
@@ -6157,6 +6560,79 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
 					(reference "R31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x3_Male")
+		(at 44.45 68.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31a70470-c403-4cb7-8802-23069390d3fa")
+		(property "Reference" "J12"
+			(at 49.53 67.1849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x3_Male"
+			(at 49.53 69.7249 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
+			(at 39.37 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -3"
+			(at 44.45 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2c806266-02f9-49e5-9894-7151606e17df")
+		)
+		(pin "3"
+			(uuid "4e76c3e0-4dff-4177-bd77-ac78101ae85e")
+		)
+		(pin "1"
+			(uuid "c21e4fab-ba31-4e90-a604-6724ebbbf4ca")
+		)
+		(instances
+			(project ""
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
+					(reference "J12")
 					(unit 1)
 				)
 			)
@@ -6502,78 +6978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x3_Female")
-		(at 44.45 68.58 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "5432e7ae-0c3e-4c4c-85f7-7871060f306a")
-		(property "Reference" "J33"
-			(at 49.53 67.5649 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x3_Female"
-			(at 35.306 72.644 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical"
-			(at 55.88 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 53.34 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -3"
-			(at 44.45 68.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c0b9f3d5-c129-40fe-9ee1-ab21be21cf0c")
-		)
-		(pin "2"
-			(uuid "9f2b3a73-394e-4a6b-b138-194e0d87c188")
-		)
-		(pin "3"
-			(uuid "7bc1d15f-9a5b-42fb-abd9-989931c2cb65")
-		)
-		(instances
-			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "J33")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C")
 		(at 68.58 27.94 90)
 		(unit 1)
@@ -6728,6 +7132,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 193.04 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "600edc41-2b5c-4e17-bad0-ac0701fbb3f3")
+		(property "Reference" "#PWR0104"
+			(at 193.04 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 193.04 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 193.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 193.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 193.04 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "650fbaa9-77fd-48fe-ab3f-44eb2a019a88")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
+					(reference "#PWR0104")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Devices:LED")
+		(at 44.45 25.4 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "60c00e31-ada9-4cc2-b0bc-6a2756cdff24")
+		(property "Reference" "D5"
+			(at 44.45 18.542 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 44.45 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 45.466 22.606 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
+			(at 45.72 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common 5mm diameter LED"
+			(at 44.45 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cd73c138-459d-4cb8-8c57-9eab3f9cd818")
+		)
+		(pin "2"
+			(uuid "81033a03-c9c0-4b49-9cba-6c18cc06f68e")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 238.76 31.75 90)
 		(unit 1)
@@ -6796,32 +7333,32 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 62.23 137.16 90)
+		(lib_id "Device:C_Polarized_US")
+		(at 238.76 38.1 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "69572626-7912-4acb-8915-29a801a63132")
-		(property "Reference" "C35"
-			(at 62.23 133.858 90)
+		(uuid "6a7be69a-3ff6-41c8-ac5a-e5b16d128bfa")
+		(property "Reference" "C9"
+			(at 238.76 41.656 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "120pF"
-			(at 66.294 136.144 90)
+		(property "Value" "10uF"
+			(at 239.268 34.29 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 66.04 136.1948 0)
+		(property "Footprint" "Capacitor_SMD:CP_Elec_4x5.8"
+			(at 238.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6830,7 +7367,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 62.23 137.16 0)
+			(at 238.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6838,8 +7375,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 62.23 137.16 0)
+		(property "Description" "Polarized capacitor, US symbol"
+			(at 238.76 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,85 +7385,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "d4a75ffb-32d3-4cb7-bd08-d79bd106ae7b")
+			(uuid "2f7699b6-6828-4558-8495-52cf2e331c92")
 		)
 		(pin "2"
-			(uuid "e9da9eca-4605-4192-a247-3e321f530b1b")
+			(uuid "8a6e70b6-f6b7-494f-afac-7df2e260ee3f")
 		)
 		(instances
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "C35")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Female")
-		(at 85.09 57.15 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "69a16bce-21b3-4fba-8ae3-033f6feca8e2")
-		(property "Reference" "J36"
-			(at 87.63 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x2_Female"
-			(at 87.63 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
-			(at 87.63 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 85.09 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
-			(at 85.09 57.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9c78db59-a94e-49d8-977a-89cc34efdf08")
-		)
-		(pin "2"
-			(uuid "259691ce-e056-48e2-bc58-be5b21c6b458")
-		)
-		(instances
-			(project ""
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "J36")
+					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -7310,6 +7777,76 @@
 	)
 	(symbol
 		(lib_id "Device:R")
+		(at 38.1 31.75 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "749665f3-bfa7-4646-a091-3314f69e9dc6")
+		(property "Reference" "R13"
+			(at 40.64 30.4799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2.2k"
+			(at 40.64 33.0199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 36.322 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 38.1 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2056a3d5-ea20-4346-b5f3-fb42b9385947")
+		)
+		(pin "1"
+			(uuid "c4a28aac-bbc0-4b86-8661-a672544bd460")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
+					(reference "R13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
 		(at 30.48 147.32 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7582,7 +8119,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 242.57 64.77 180)
+		(at 243.84 64.77 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7590,7 +8127,7 @@
 		(dnp no)
 		(uuid "84d783bb-eb8b-461c-b571-5b4e1bbc0a86")
 		(property "Reference" "R32"
-			(at 240.538 68.326 0)
+			(at 241.808 68.326 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +8136,7 @@
 			)
 		)
 		(property "Value" "82k"
-			(at 241.046 61.468 0)
+			(at 242.316 61.468 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +8145,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
-			(at 244.348 64.77 90)
+			(at 245.618 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7617,7 +8154,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 242.57 64.77 0)
+			(at 243.84 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7626,7 +8163,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 242.57 64.77 0)
+			(at 243.84 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7668,7 +8205,7 @@
 			)
 		)
 		(property "Value" "OPA2134"
-			(at 67.564 144.78 0)
+			(at 68.326 156.464 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7990,7 +8527,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "0R"
 			(at 43.18 45.72 90)
 			(effects
 				(font
@@ -8194,7 +8731,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 43.18 48.514 90)
 			(effects
 				(font
@@ -8245,17 +8782,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 45.72 152.4 0)
+		(lib_id "Device:R")
+		(at 209.55 31.75 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a38c48f5-b5bc-41ec-996f-caf86f714c72")
-		(property "Reference" "C32"
-			(at 49.53 151.1299 0)
+		(uuid "a9e8e706-9b4f-4186-97d5-4f1c54960df9")
+		(property "Reference" "R14"
+			(at 212.09 30.4799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8263,8 +8800,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1200pF"
-			(at 49.53 153.6699 0)
+		(property "Value" "2.2k"
+			(at 212.09 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8272,8 +8809,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 46.6852 156.21 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
+			(at 207.772 31.75 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8282,7 +8819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 45.72 152.4 0)
+			(at 209.55 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8290,25 +8827,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 45.72 152.4 0)
+		(property "Description" "Resistor"
+			(at 209.55 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "d820ea0c-d00c-4f67-816a-8fa5eeb61517")
 		)
 		(pin "2"
-			(uuid "f6d13825-f2a4-4314-b995-957066c46430")
+			(uuid "7bc8bb94-934e-4e82-972a-aa7ef2ef26d8")
+		)
+		(pin "1"
+			(uuid "98233dab-e525-4a67-9ba8-366e3f82db05")
 		)
 		(instances
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "C32")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -8332,7 +8869,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 42.926 51.054 90)
 			(effects
 				(font
@@ -8629,6 +9166,7 @@
 		)
 	)
 	(symbol
+		(lib_name "AudioJack3_2")
 		(lib_id "Connector_Audio:AudioJack3")
 		(at 232.41 101.6 0)
 		(mirror y)
@@ -8657,7 +9195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+		(property "Footprint" "SamacSys_Parts:ACJSNV353"
 			(at 232.41 101.6 0)
 			(effects
 				(font
@@ -8684,13 +9222,13 @@
 				(hide yes)
 			)
 		)
-		(pin "R"
+		(pin "1"
 			(uuid "46b27a86-2943-447d-aca4-4bac2865c8a9")
 		)
-		(pin "T"
+		(pin "3"
 			(uuid "93d3227c-3bbc-4c5a-b23e-e71d77c49e9a")
 		)
-		(pin "S"
+		(pin "4"
 			(uuid "627da523-4d8b-4ab8-bb62-a592965a1f52")
 		)
 		(instances
@@ -8720,7 +9258,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "50"
 			(at 43.18 43.18 90)
 			(effects
 				(font
@@ -8839,6 +9377,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 38.1 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "bf3b643c-d16d-41e0-889e-1b483ed326ec")
+		(property "Reference" "#PWR0103"
+			(at 38.1 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 38.1 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 38.1 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4efaa41a-9eb9-473f-a3b3-04e72ade5431")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
+					(reference "#PWR0103")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized_US")
 		(at 76.2 52.07 90)
 		(unit 1)
@@ -8900,73 +9504,6 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
 					(reference "C40")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 238.76 38.1 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c5d55ba9-7cb1-4c35-a4af-2912af3511ed")
-		(property "Reference" "C47"
-			(at 238.76 35.052 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "10uF"
-			(at 239.014 41.402 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 242.57 37.1348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 238.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 238.76 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a179c59e-fe40-4e99-a6dd-fb22c11f71bf")
-		)
-		(pin "2"
-			(uuid "05a1a62d-b6c9-457c-b91c-e6e33fb23b88")
-		)
-		(instances
-			(project "Power_Supplies"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
-					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -9174,6 +9711,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 85.09 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cee7c26d-3791-4c6c-90e1-1f178facf673")
+		(property "Reference" "J15"
+			(at 87.63 55.8799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Male"
+			(at 87.63 58.4199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 86.36 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 85.09 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4a733795-b087-49eb-bbb4-4abed78aa58b")
+		)
+		(pin "2"
+			(uuid "e742c3cd-40fa-4335-a81a-7e2672d45a56")
+		)
+		(instances
+			(project ""
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
+					(reference "J15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:OPA2134")
 		(at 66.04 119.38 0)
 		(mirror x)
@@ -9260,6 +9867,7 @@
 		)
 	)
 	(symbol
+		(lib_name "AudioJack3_1")
 		(lib_id "Connector_Audio:AudioJack3")
 		(at 232.41 91.44 0)
 		(mirror y)
@@ -9288,7 +9896,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Connector_Audio:Jack_3.5mm_CUI_SJ-3523-SMT_Horizontal"
+		(property "Footprint" "SamacSys_Parts:ACJSNV353"
 			(at 232.41 91.44 0)
 			(effects
 				(font
@@ -9315,13 +9923,13 @@
 				(hide yes)
 			)
 		)
-		(pin "R"
+		(pin "3"
 			(uuid "ea20a22c-e71f-4f16-a803-b9e278260bd2")
 		)
-		(pin "T"
+		(pin "4"
 			(uuid "640bec5c-b9a6-462a-b8d1-0c4f362be8de")
 		)
-		(pin "S"
+		(pin "1"
 			(uuid "b2db79b9-f975-4fa6-8806-c041aa84e62d")
 		)
 		(instances
@@ -9805,6 +10413,73 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Devices:LED")
+		(at 215.9 27.94 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f97233f0-b016-41f9-8e1d-1ba2dd3d7cf8")
+		(property "Reference" "D6"
+			(at 215.9 21.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 215.9 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0402_1005Metric_Pad0.77x0.64mm_HandSolder"
+			(at 216.916 25.146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.we-online.com/components/products/datasheet/150060BS75000.pdf"
+			(at 217.17 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Common 5mm diameter LED"
+			(at 215.9 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "82e1b783-aec6-419a-9447-5649826d2b17")
+		)
+		(pin "2"
+			(uuid "c89ea17b-af97-45c8-8cef-88f3de6af17d")
+		)
+		(instances
+			(project "Power_Supplies"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/29bf6371-8a12-4a95-b0c2-fbe02aad04a0"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 62.23 142.24 90)
 		(unit 1)
@@ -9822,7 +10497,7 @@
 			)
 		)
 		(property "Value" "120pF"
-			(at 67.056 144.272 90)
+			(at 68.072 145.288 90)
 			(effects
 				(font
 					(size 1.27 1.27)

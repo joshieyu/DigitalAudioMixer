@@ -1230,6 +1230,12 @@
 		(uuid "3fba1914-fe22-4b24-9ec1-825f781feffc")
 	)
 	(junction
+		(at 185.42 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4510de64-1099-4182-a790-37ece16667eb")
+	)
+	(junction
 		(at 167.64 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1567,6 +1573,16 @@
 	)
 	(wire
 		(pts
+			(xy 185.42 59.69) (xy 195.58 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a75a67c0-3e0f-4588-ae61-daf85979f771")
+	)
+	(wire
+		(pts
 			(xy 115.57 116.84) (xy 115.57 119.38)
 		)
 		(stroke
@@ -1587,7 +1603,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 59.69) (xy 195.58 59.69)
+			(xy 180.34 59.69) (xy 185.42 59.69)
 		)
 		(stroke
 			(width 0)
@@ -1993,7 +2009,7 @@
 				)
 			)
 		)
-		(property "Value" "2.2uF"
+		(property "Value" "0.1uF"
 			(at 163.83 38.1 90)
 			(effects
 				(font
@@ -2304,6 +2320,72 @@
 			(project "Power_Supplies_Copy"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/873b4819-32e6-40de-93d6-23cb6a01b934"
 					(reference "#PWR058")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 185.42 67.31 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "48f2914f-8c89-42cb-ac45-41e5d0c5bc9f")
+		(property "Reference" "#PWR07"
+			(at 185.42 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 185.42 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 185.42 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a55c3749-4af2-4a9a-8eb0-dabc91da5eea")
+		)
+		(instances
+			(project "Power_Supplies_Copy"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/873b4819-32e6-40de-93d6-23cb6a01b934"
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -4352,6 +4434,75 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/873b4819-32e6-40de-93d6-23cb6a01b934"
 					(reference "L4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 185.42 63.5 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f8ee3287-fefa-48a4-b733-270bf3b0a1f3")
+		(property "Reference" "C5"
+			(at 189.23 62.2299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "0.01uF"
+			(at 187.706 65.532 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+			(at 184.4548 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 185.42 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "859c4676-ce5d-47c5-a0ac-57c3f81210db")
+		)
+		(pin "2"
+			(uuid "9d9a83e8-4022-4810-ba3c-9135b21386f2")
+		)
+		(instances
+			(project "Power_Supplies_Copy"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/873b4819-32e6-40de-93d6-23cb6a01b934"
+					(reference "C5")
 					(unit 1)
 				)
 			)
