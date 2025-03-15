@@ -1,0 +1,192 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "5266cf9e-da90-4c53-80fd-cf3dbed42632")
+	(paper "A4")
+	(title_block
+		(title "Power Supplies")
+		(date "2024-09-01")
+		(rev "1")
+		(company "Michael Meyers")
+	)
+	(lib_symbols)
+	(rectangle
+		(start 148.59 60.96)
+		(end 217.17 91.44)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 54a50dd9-50e2-43c7-9d8c-e8a3e2c5c77d)
+	)
+	(rectangle
+		(start 63.5 58.42)
+		(end 123.19 96.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a431d4ea-3826-4044-b789-472f3edaaabf)
+	)
+	(text "Power / IO"
+		(exclude_from_sim no)
+		(at 92.71 54.864 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "5299cf95-92d8-489f-af21-500a869777d7")
+	)
+	(text "Signal Converters"
+		(exclude_from_sim no)
+		(at 180.34 58.166 0)
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.6)
+				(bold yes)
+				(italic yes)
+			)
+		)
+		(uuid "7d9afdc1-97fe-4e00-9733-63a68bee6e61")
+	)
+	(sheet
+		(at 189.23 67.31)
+		(size 24.13 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "29bf6371-8a12-4a95-b0c2-fbe02aad04a0")
+		(property "Sheetname" "DACs & Output"
+			(at 189.23 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "DAC.kicad_sch"
+			(at 189.23 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Audio_Board_AD_Breakout"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 66.04 68.58)
+		(size 24.13 16.51)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "873b4819-32e6-40de-93d6-23cb6a01b934")
+		(property "Sheetname" "IO Pins"
+			(at 66.04 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Phantom.kicad_sch"
+			(at 66.04 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 66.04 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "Audio_Board_AD_Breakout"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 151.13 67.31)
+		(size 24.13 15.24)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "8f3dd01b-e3ea-4f9d-9f95-d4c91dcdbd45")
+		(property "Sheetname" "ADCs"
+			(at 151.13 66.5984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "ADC.kicad_sch"
+			(at 151.13 83.1346 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Audio_Board_AD_Breakout"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

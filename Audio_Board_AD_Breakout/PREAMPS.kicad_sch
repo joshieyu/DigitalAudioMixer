@@ -1,0 +1,11 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "8f87278f-3145-4e35-b3cb-3d9f262d1452")
+	(paper "A2")
+	(title_block
+		(title "Preamps1")
+	)
+	(lib_symbols)
+)
