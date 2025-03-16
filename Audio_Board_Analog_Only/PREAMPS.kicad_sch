@@ -2616,6 +2616,12 @@
 		(uuid "cbacd435-be2b-4ba2-9b71-5d17c2210584")
 	)
 	(junction
+		(at 242.57 309.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cbfac5ea-96dc-4add-9b6b-288bbd754771")
+	)
+	(junction
 		(at 80.01 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4117,6 +4123,16 @@
 	)
 	(wire
 		(pts
+			(xy 242.57 309.88) (xy 246.38 309.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "539bbd23-5be0-4d80-87d5-498218cd133e")
+	)
+	(wire
+		(pts
 			(xy 152.4 182.88) (xy 152.4 186.69)
 		)
 		(stroke
@@ -5597,7 +5613,7 @@
 	)
 	(wire
 		(pts
-			(xy 232.41 309.88) (xy 246.38 309.88)
+			(xy 232.41 309.88) (xy 242.57 309.88)
 		)
 		(stroke
 			(width 0)
@@ -6234,6 +6250,16 @@
 			(type default)
 		)
 		(uuid "e25009cb-b467-43e6-95e4-cf26518a0393")
+	)
+	(wire
+		(pts
+			(xy 242.57 309.88) (xy 242.57 316.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e36f0f96-e3da-4b6d-8dd1-3fa7e5150acd")
 	)
 	(wire
 		(pts
@@ -13331,6 +13357,73 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
 					(reference "#PWR079")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 245.11 316.23 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5abdce5a-0f0a-40f0-ab2d-e447fc23c0b2")
+		(property "Reference" "#PWR025"
+			(at 251.46 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "AGND"
+			(at 248.92 316.2299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 245.11 316.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8fae41df-97ed-4fb8-a051-06b4104d0863")
+		)
+		(instances
+			(project "Audio_Board_Analog_Only"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -22122,6 +22215,76 @@
 			(project "Power_Supplies"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
 					(reference "#PWR086")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Male")
+		(at 243.84 320.04 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ee488b99-af02-460e-b976-8fe322800ff4")
+		(property "Reference" "J12"
+			(at 247.65 318.6449 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Male"
+			(at 247.65 321.1849 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
+			(at 240.03 321.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header male with pin space 2.54mm. Pin Count -2"
+			(at 243.84 320.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d9f617ec-0f72-48fe-83f0-be46b3195b80")
+		)
+		(pin "2"
+			(uuid "fa0943fa-fb7c-432f-a072-64dc417c7eb3")
+		)
+		(instances
+			(project "Audio_Board_Analog_Only"
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/e99ff431-6a4b-4cff-9a72-1b9e305d1dd3"
+					(reference "J12")
 					(unit 1)
 				)
 			)
