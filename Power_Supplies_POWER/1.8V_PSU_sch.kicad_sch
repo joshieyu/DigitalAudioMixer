@@ -572,165 +572,6 @@
 				)
 			)
 		)
-		(symbol "PCM_SL_Pin_Headers:PINHD_1x1_Female"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PINHD_1x1_Female"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-				(at 2.54 8.89 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 6.35 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -1"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Pin Header"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "PinSocket_1x01_P2.54mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PINHD_1x1_Female_0_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.905 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(arc
-					(start -0.508 0)
-					(mid -0.3592 -0.3592)
-					(end 0 -0.508)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.27 0) (xy -0.508 0)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 1.016 -0.508)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.508) (xy 1.016 0.508)
-					)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0.508)
-					(mid -0.3592 0.3592)
-					(end -0.508 0)
-					(stroke
-						(width 0.25)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "PINHD_1x1_Female_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "PCM_SL_Pin_Headers:PINHD_1x2_Female"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2701,6 +2542,12 @@
 		(uuid "00222fe7-82a5-430e-b12a-bb560419c8a7")
 	)
 	(junction
+		(at 238.76 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0595ddbb-e036-454b-a63d-fbfafe6ca67e")
+	)
+	(junction
 		(at 250.19 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2741,6 +2588,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52fdc857-4dfa-4f8a-83c8-3018ef545081")
+	)
+	(junction
+		(at 201.93 38.1)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "55662bd8-58d3-4880-bce4-88783649540f")
 	)
 	(junction
 		(at 167.64 101.6)
@@ -3216,6 +3069,16 @@
 	)
 	(wire
 		(pts
+			(xy 238.76 73.66) (xy 238.76 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "887880e9-004b-4f2a-9b36-7cedb5db95b8")
+	)
+	(wire
+		(pts
 			(xy 248.92 105.41) (xy 248.92 102.87)
 		)
 		(stroke
@@ -3353,6 +3216,16 @@
 			(type default)
 		)
 		(uuid "b20532b0-27ed-47fe-b5a5-c483c03d16cb")
+	)
+	(wire
+		(pts
+			(xy 201.93 38.1) (xy 201.93 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3ac6c9e-9628-468d-9e06-bb8b197bb628")
 	)
 	(wire
 		(pts
@@ -4025,73 +3898,6 @@
 			(project "Power_Supplies_Copy"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/9c32f96f-6431-432f-ba4b-d32b848998a9"
 					(reference "J23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Female")
-		(at 205.74 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "026678a7-6297-45ce-9d76-fd3afcb04935")
-		(property "Reference" "J32"
-			(at 208.28 36.8299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x1_Female"
-			(at 208.28 39.3699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 208.28 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 205.74 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -1"
-			(at 205.74 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "eddf86d6-7b41-4021-943f-78e1224e6c47")
-		)
-		(instances
-			(project "Power_Supplies_Copy"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/9c32f96f-6431-432f-ba4b-d32b848998a9"
-					(reference "J32")
 					(unit 1)
 				)
 			)
@@ -4873,73 +4679,6 @@
 			(project ""
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/9c32f96f-6431-432f-ba4b-d32b848998a9"
 					(reference "J2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "PCM_SL_Pin_Headers:PINHD_1x1_Female")
-		(at 242.57 73.66 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "58deba52-06f1-4e71-8128-cfd2d55466cf")
-		(property "Reference" "J26"
-			(at 245.11 72.3899 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "PINHD_1x1_Female"
-			(at 245.11 74.9299 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical"
-			(at 245.11 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 242.57 67.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -1"
-			(at 242.57 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9009d4ce-6ce5-425e-bbc2-60b8bcba18f1")
-		)
-		(instances
-			(project "Power_Supplies_Copy"
-				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/9c32f96f-6431-432f-ba4b-d32b848998a9"
-					(reference "J26")
 					(unit 1)
 				)
 			)
@@ -5888,6 +5627,76 @@
 		)
 	)
 	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Female")
+		(at 242.57 74.93 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b400039b-4748-4232-beed-af03ef120bbc")
+		(property "Reference" "J26"
+			(at 245.11 73.6599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Female"
+			(at 245.11 76.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 245.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
+			(at 242.57 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2f4cf87c-420d-4716-ae15-045e5ae5c114")
+		)
+		(pin "2"
+			(uuid "6c24ccdb-ea38-47a3-bc7b-b7a2f73e301f")
+		)
+		(instances
+			(project ""
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/9c32f96f-6431-432f-ba4b-d32b848998a9"
+					(reference "J26")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_SL_Pin_Headers:PINHD_1x5_Female")
 		(at 255.27 105.41 0)
 		(unit 1)
@@ -5961,6 +5770,76 @@
 			(project "Power_Supplies_Copy"
 				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/9c32f96f-6431-432f-ba4b-d32b848998a9"
 					(reference "J28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_SL_Pin_Headers:PINHD_1x2_Female")
+		(at 205.74 39.37 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5f96e6d-2388-4933-939f-727c43275633")
+		(property "Reference" "J32"
+			(at 208.28 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "PINHD_1x2_Female"
+			(at 208.28 40.6399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical"
+			(at 208.28 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 205.74 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pin Header female with pin space 2.54mm. Pin Count -2"
+			(at 205.74 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "be49e3e6-8ece-4120-a1b8-608cbebad7bc")
+		)
+		(pin "1"
+			(uuid "9fff5679-6eb7-479b-99c6-1946d8b35f7c")
+		)
+		(instances
+			(project ""
+				(path "/5266cf9e-da90-4c53-80fd-cf3dbed42632/9c32f96f-6431-432f-ba4b-d32b848998a9"
+					(reference "J32")
 					(unit 1)
 				)
 			)
